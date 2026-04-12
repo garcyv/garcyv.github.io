@@ -171,3 +171,29 @@
     margin-left: 5px;
   }
 }
+
+.card-destacada:hover {
+    transform: translateY(-8px);
+    border-color: #ceab6b !important;
+    background: rgba(206, 171, 107, 0.05) !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.card-destacada i {
+    transition: transform 0.5s ease;
+}
+
+.card-destacada:hover i {
+    transform: scale(1.1);
+    opacity: 1 !important;
+}
+
+.cert-item {
+    border-left: 3px solid transparent;
+    transition: all 0.3s ease;
+}
+.cert-item:hover {
+    background: rgba(206, 171, 107, 0.08) !important;
+    border-left: 3px solid #ceab6b;
+    padding-left: 20px !important;
+}
