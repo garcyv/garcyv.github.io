@@ -197,3 +197,27 @@
     border-left: 3px solid #ceab6b;
     padding-left: 20px !important;
 }
+
+article#portfolio {
+    max-height: 80vh; /* Limita el alto para que no se pierda el botón de cierre */
+    overflow-y: auto; /* Activa el scroll vertical */
+    padding-right: 15px; /* Evita que el scroll tape el contenido */
+}
+
+/* Personalizar la barra de scroll para que combine con tu diseño dorado */
+article#portfolio::-webkit-scrollbar {
+    width: 6px;
+}
+
+article#portfolio::-webkit-scrollbar-thumb {
+    background-color: #ceab6b;
+    border-radius: 10px;
+}
+
+article#portfolio::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+article {
+    -webkit-overflow-scrolling: touch;
+}
