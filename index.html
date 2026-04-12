@@ -1,0 +1,2283 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+	<head>
+		<title>Garcy Valenzuela</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/secondary.css" />
+		<noscript>
+			<link rel="stylesheet" href="assets/css/noscript.css" />
+		</noscript>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+		<style>
+/* Estilos generales para los botones de acción */
+			.button-action {
+				text-decoration: none;
+				font-size: 0.8rem;
+				padding: 0.25rem 0.75rem;
+				cursor: pointer;
+				border-radius: 4px;
+				transition: all 0.2s ease;
+				text-align: center;
+			}
+
+			/* Estilo del botón "Ver Proyecto" (principal) */
+			.main-action {
+				background: #4B8BBE; /* Un azul Python para destacar */
+				color: #fff;
+				border: 1px solid transparent;
+			}
+
+			.main-action:hover {
+				background: #fff;
+				color: #4B8BBE;
+				border: 1px solid #4B8BBE;
+			}
+
+			/* Estilo del botón "Código" (secundario) */
+			.secondary-action {
+				background: transparent;
+				color: rgba(255, 255, 255, 0.8);
+				border: 1px solid rgba(255, 255, 255, 0.2);
+			}
+
+			.secondary-action:hover {
+				background: rgba(255, 255, 255, 0.1);
+				color: #fff;
+			}
+
+			/* Estilo para el botón ícono de desplegar */
+			.icon-action {
+				background: transparent;
+				color: rgba(255, 255, 255, 0.6);
+				border: none;
+				cursor: pointer;
+				font-size: 0.9rem;
+				padding: 0.25rem;
+				transition: all 0.2s ease;
+			}
+
+			.icon-action:hover {
+				color: #fff;
+			}
+
+			/* Estado activo del contenedor desplegado (para el JS) */
+			.description-detailed.active {
+				padding-top: 0.5rem; 
+			}
+	
+		</style>
+
+		<style>
+			.experience-card {
+				max-width: 900px;
+				margin: 15px auto;
+				background: rgba(255, 255, 255, 0.03);
+				border-left: 3px solid rgba(206, 171, 107, 0.7); /* Acento dorado lateral */
+				border-top: 1px solid rgba(255, 255, 255, 0.05);
+				border-right: 1px solid rgba(255, 255, 255, 0.05);
+				border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+				border-radius: 4px 12px 12px 4px;
+				padding: 20px;
+				font-family: 'Segoe UI', sans-serif;
+				color: #d1d1d1;
+				transition: transform 0.2s, background 0.3s;
+			}
+
+			.experience-card:hover {
+				background: rgba(255, 255, 255, 0.06);
+				transform: translateX(5px);
+			}
+
+			.job-header {
+				display: flex;
+				justify-content: space-between;
+				align-items: flex-start;
+				flex-wrap: wrap;
+				margin-bottom: 10px;
+			}
+
+			.job-title {
+				color: #ffffff;
+				font-size: 1.2em;
+				font-weight: bold;
+				margin: 0;
+			}
+
+			.company-name {
+				color: rgba(206, 171, 107, 1);
+				font-weight: 600;
+				font-size: 1em;
+				margin: 4px 0;
+			}
+
+			.date-range {
+				font-size: 0.85em;
+				color: #888;
+				background: rgba(0,0,0,0.2);
+				padding: 4px 10px;
+				border-radius: 15px;
+			}
+
+			.highlight-list {
+				list-style: none;
+				padding-left: 0;
+				margin-top: 12px;
+				font-size: 0.9em;
+			}
+
+			.highlight-list li {
+				margin-bottom: 6px;
+				padding-left: 15px;
+				position: relative;
+			}
+
+			.highlight-list li::before {
+				content: "→";
+				position: absolute;
+				left: 0;
+				color: rgba(206, 171, 107, 0.8);
+			}
+		</style>
+	</head>
+
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Header -->
+			<header id="header">
+				<div class="content">
+					<div class="inner">
+						<h1>Garcy Valenzuela P.</h1>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/garcyvalenzuela/" target="_blank"
+								class="icon brands fa-linkedin" title="LinkedIn"><span class="label">LinkedIn</span></a></li>
+							<!-- <li><a href="https://www.instagram.com/boxnbeeson" target="_blank"
+								class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
+							<li><a href="https://github.com/garcyv" target="_blank" class="icon brands fa-github" title="GitHub"><span
+								class="label">GitHub</span></a></li>
+							<li><a href="https://www.youtube.com/channel/UCY5vt8M_62zLrfwzJgSxcuA" target="_blank" class="icon brands fa-youtube" title="YouTube"><span
+								class="label">YouTube</span></a></li> 
+							<li><a href="images/Portada/CV_Garcy_Valenzuela_Peña_2026-04.pdf" target="_blank"
+								class="icon far fa-file" title="Resume"><span class="label">Resume</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<nav>
+					<!--
+					<ul>
+						<li><a href="#intro">Intro</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#resumeCV">CV</a></li> -->
+						<!-- <li><a href="#contact">Contact</a></li> -->
+						<!-- <li><a href="#elements">Elements</a></li> -->
+					<!--</ul> 
+				-->
+					<ul class="icono-menu">
+						<li>
+							<a href="#intro">
+								<i class="fa-solid fa-house"></i>
+								<span class="texto-enlace">Intro</span>
+							</a>
+						</li>
+						<li>
+							<a href="#portfolio">
+								<i class="fa-solid fa-folder-open"></i>
+								<span class="texto-enlace">Portfolio</span>
+							</a>
+						</li>
+						<li>
+							<a href="#resumeCV">
+								<i class="fa-solid fa-file-lines"></i>
+								<span class="texto-enlace">CV</span>
+							</a>
+						</li>
+					</ul> 
+
+
+				</nav>
+			</header>
+
+			<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+				<article id="intro">
+					<section id="about">
+						<h2 class="major">Acerca de mí</h2>
+						<div style="display: flex; align-items: flex-start; gap: 20px;">
+							<!-- Imagen principal -->
+							<img src="images/Portada/introPic.jpg" alt="Garcy Valenzuela"
+								style="width: 140px; height: 180px; object-fit: cover; border-radius: 10px;" />
+
+							<!-- Bloque central (imagen + texto) -->
+							<div style="display: flex; flex-direction: column; gap: 10px;">
+								<!-- Segunda imagen MISMO tamaño -->
+								<img src="images/Portada/ProfileGVP.png" alt="Perfil"
+								style="
+									width: 100%;
+									height: 60vh;
+									object-fit: contain;
+									border-radius: 12px;
+								" />
+
+								<!-- Texto -->
+								<p style="font-size: 0.8em; line-height: 1.5; color:#ccc; max-width: 600px;">
+										Mi carrera está definida por la <strong style="color:#ceab6b;">adaptabilidad</strong> tecnológica y la
+										<strong style="color:#ceab6b;">vanguardia</strong> digital. Hoy acompaño a organizaciones a evolucionar 
+										su toma de decisiones mediante 	la ayuda de herramientas de<strong style="color:#ceab6b;"> 
+										Inteligencia Articial</strong> como el <strong style="color:#ceab6b;"> Machine Learning</strong> y 
+										también comparto el conocimiento adquirido mediante la <strong style="color:#ceab6b;">  docencia </strong>
+								</p>
+
+								<!-- Iconos -->
+								<div style="display: flex; gap: 12px; color:#ceab6b;">
+										<i class="fas fa-database"></i>
+										<i class="fas fa-brain"></i>
+										<i class="fas fa-chart-line"></i>
+										<i class="fas fa-robot"></i>
+								</div>
+							</div>
+						</div>
+					</section>
+				</article>
+
+				<!-- Portfolio -->
+				<article id="portfolio">
+					<h1 class="major">Portfolio</h1>
+					<!-- Proyectos Top-->
+					<div class="accordion-item">
+						<div class="accordion-header">
+							<h3 style="display: flex; align-items: center; gap: 12px;">
+								<span style="
+									color: #ceab6b;
+									font-size: 1.2em;
+									margin-right: 10px;
+									filter: drop-shadow(0 0 6px rgba(206,171,107,0.6));
+								">
+									<i class="fas fa-file-code"></i>
+								</span>
+								Proyectos Top
+							</h3>
+							<span class="accordion-icon">+</span>
+						</div>
+						<div class="accordion-content">
+							<container>
+								<div class="row">
+									<div class="otherColumn">
+										<div class="outline">
+											<h3 class="cardTitle">📂 Ciencia de Datos</h3>								
+											<div class="image-container">
+												<div class="image main" style="border-radius: 12px; overflow: hidden; margin-bottom: 0.5rem;">
+													<video width="100%" autoplay loop muted playsinline>
+														<source src="images/Ciencias/Ciencias_preview.mp4" type="video/mp4">
+														Tu navegador no soporta videos.
+													</video>
+												</div>
+												<div style="display: flex; gap: 0.5rem; justify-content: space-between; align-items: center; margin-top: 1rem;">											
+													<div class="topButtonCentered">
+														<a href="#data-science-details" class="button primary">
+															<i class="fas fa-eye"></i> Ver
+														</a>
+														
+														<a href="https://github.com/garcyv" target="_blank" class="button">
+															<i class="fab fa-github"></i> Código
+														</a>
+													</div>
+													<button class="toggle-description icon-action" onclick="toggleDesc(this)" title="Ver descripción detallada">▼</button>
+												</div>
+												<div class="description-detailed" style="max-height: 0; overflow: hidden; transition: all 0.3s ease-out;">
+													<p style="font-size: 0.9rem; font-style: italic; color: rgba(255,255,255,0.7); padding: 0.5rem 0;">
+													<strong>Análisis Estadístico y ML</strong><br>
+													Colección de recursos y simuladores interactivos. Incluye el simulador 
+													t-Student diseñado para ilustrar la convergencia con la Normal Z, 
+													cuestionando la regla de n > 30 mediante análisis de alpha y desviación estándar.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="otherColumn">
+										<div class="outline">
+											<h3 class="cardTitle">📂 Lógica y Python</h3>									
+											<div class="image-container">
+												<div class="image main" style="border-radius: 12px; overflow: hidden; margin-bottom: 0.5rem;">
+													<video width="100%" autoplay loop muted playsinline>
+														<source src="images/Python/Python_preview.mp4" type="video/mp4">
+														Tu navegador no soporta videos.
+													</video>
+												</div>
+												<div style="display: flex; gap: 0.5rem; justify-content: space-between; align-items: center; margin-top: 1rem;">											
+													<div class="topButtonCentered">
+														<a href="#python-logic-details" class="button primary">
+															<i class="fas fa-eye"></i> Ver
+														</a>
+														<a href="https://github.com/garcyv" target="_blank" class="button">
+															<i class="fa-brands fa-github"></i> Código
+														</a>
+													</div>
+													<button class="toggle-description icon-action" onclick="toggleDesc(this)" title="Ver descripción detallada">▼</button>
+												</div>
+												<div class="description-detailed" style="max-height: 0; overflow: hidden; transition: all 0.3s ease-out;">
+													<p style="font-size: 0.9rem; font-style: italic; color: rgba(255,255,255,0.7); padding: 0.5rem 0;">
+														<strong>Algoritmos y Automatización</strong><br>
+														Resolución de problemas complejos mediante scripts optimizados. 
+														Este espacio agrupa simulaciones matemáticas, herramientas de 
+														automatización de tareas y ejemplos de arquitectura limpia bajo 
+														el paradigma de POO en Python.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="otherColumn">
+										<div class="outline">
+											<h3 class="cardTitle">📂 Comp. Cuántica</h3>									
+											<div class="image-container">
+												<div class="image main" style="border-radius: 12px; overflow: hidden; margin-bottom: 0.5rem;">
+													<video width="100%" autoplay loop muted playsinline>
+														<source src="images/Cuantica/Cuantica_preview.mp4" type="video/mp4">
+														Tu navegador no soporta videos.
+													</video>
+												</div>
+												<div style="display: flex; gap: 0.5rem; justify-content: space-between; align-items: center; margin-top: 1rem;">											
+													<div class="topButtonCentered">
+														<a href="#Cuantica-details" class="button primary">
+																<i class="fas fa-eye"></i> Ver
+														</a>													
+														<a href="https://github.com/garcyv" target="_blank" class="button">
+																<i class="fab fa-github"></i> Código
+														</a>
+													</div>
+													<button class="toggle-description icon-action" onclick="toggleDesc(this)" title="Ver descripción detallada">▼</button>
+												</div>
+												<!--	<a href="https://tu-enlace-al-proyecto.com" target="_blank" class="button-action main-action">Proyectos →</a>
+													
+													<a href="https://github.com/tu-usuario/tu-repositorio" target="_blank" class="button-action secondary-action">Código</a>
+												-->
+
+												<div class="description-detailed" style="max-height: 0; overflow: hidden; transition: all 0.3s ease-out;">
+													<p style="font-size: 0.9rem; font-style: italic; color: rgba(255,255,255,0.7); padding: 0.5rem 0;">
+														Estos proyectos implementan algoritmos cuánticos clásicos utilizando  APIs de Qiskit y simuladores cuánticos de IBM.
+														Se muestra como desarrollar circuitos cuánticos y cómo interactuar con los simuladores. 
+														El script optimiza la asignación de cúbits y visualiza los resultados en tiempo real,
+														 inabordable para la computación clásica. 
+													</p>
+												</div>
+											</div>	
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="otherColumn disabled-section">
+										<div class="outline">
+											<h3 class="cardTitle">📂 Medio Ambiente</h3>								
+											<div class="image-container">
+												<div class="image main" style="border-radius: 12px; overflow: hidden; margin-bottom: 0.5rem;">
+													<video width="100%" autoplay loop muted playsinline>
+														<source src="images/MedioAmbiente/MedioAmbiente_preview.mp4" type="video/mp4">
+														Tu navegador no soporta videos.
+													</video>
+												</div>
+												<div style="display: flex; gap: 0.5rem; justify-content: space-between; align-items: center; margin-top: 1rem;">											
+													<div class="topButtonCentered">
+														<!--<a href="#MedioAmbiente-details2" class="button primary">
+															<i class="fas fa-eye"></i> Ver
+														</a>-->
+														<a href="#"
+															class="button primary"
+															style="
+																	opacity: 0.4;
+																	pointer-events: none;
+																	cursor: not-allowed;
+															">
+																<i class="fas fa-eye"></i> Ver
+														</a>
+														
+														<a href="https://github.com/garcyv" target="_blank" class="button">
+															<i class="fab fa-github"></i> Código
+														</a>
+													</div>
+													<button class="toggle-description icon-action" onclick="toggleDesc(this)" title="Ver descripción detallada">▼</button>
+												</div>
+												<div class="description-detailed" style="max-height: 0; overflow: hidden; transition: all 0.3s ease-out;">
+													<p style="font-size: 0.9rem; font-style: italic; color: rgba(255,255,255,0.7); padding: 0.5rem 0;">
+														<strong>Medio Ambiente</strong><br>
+														Desarrollo de sistemas inteligentes para el monitoreo y mitigación del impacto ambiental. 
+														Implementación de redes de sensores IoT para la calidad del aire, análisis de datos geoespaciales (GIS)
+														para la reforestación y modelos de Inteligencia Artificial aplicados a la eficiencia energética
+														en entornos urbanos.											
+													</p>
+												</div>
+											</div>
+											<p class="portfoliop">
+												<strong>Tecnologías:</strong><br>
+												<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+												<img src="https://img.shields.io/badge/Matplotlib-ffffff?style=for-the-badge&logo=python&logoColor=black" alt="Matplotlib"><br>
+												<img src="https://img.shields.io/badge/IoT-Sensors-2E7D32?style=for-the-badge&logo=arduino&logoColor=white" alt="IoT Sensors">
+												<img src="https://img.shields.io/badge/GIS-Mapping-8BC34A?style=for-the-badge&logo=qgis&logoColor=black" alt="GIS Mapping">
+												<img src="https://img.shields.io/badge/AI-Sustainability-1B5E20?style=for-the-badge&logo=tensorflow&logoColor=white" alt="AI Sustainability">
+											</p>
+										</div>
+									</div>
+									<div class="otherColumn disabled-section">
+										<div class="outline">
+											<h3 class="cardTitle">📂 Web & Backend</h3>
+											<div class="image-container">							
+												<div class="image main" style="border-radius: 12px; overflow: hidden; margin-bottom: 0.5rem;">
+													<video width="100%" autoplay loop muted playsinline>
+														<source src="images/Web/Web_preview.mp4" type="video/mp4">
+														Tu navegador no soporta videos.
+													</video>
+												</div>
+												<div style="display: flex; gap: 0.5rem; justify-content: space-between; align-items: center; margin-top: 1rem;">											
+													<div class="topButtonCentered">
+														<!--<a href="#web-details2" class="button primary">
+															<i class="fas fa-eye"></i> Ver
+														</a>-->
+														<a href="#"
+															class="button primary"
+															style="
+																	opacity: 0.4;
+																	pointer-events: none;
+																	cursor: not-allowed;
+															">
+																<i class="fas fa-eye"></i> Ver
+															</a>
+														
+														<a href="https://github.com/garcyv" target="_blank" class="button">
+															<i class="fab fa-github"></i> Código
+														</a>
+													</div>
+													<button class="toggle-description icon-action" onclick="toggleDesc(this)" title="Ver descripción detallada">▼</button>
+												</div>											
+												<div class="description-detailed" style="max-height: 0; overflow: hidden; transition: all 0.3s ease-out;">
+													<p style="font-size: 0.9rem; font-style: italic; color: rgba(255,255,255,0.7); padding: 0.5rem 0;">
+														<strong>Sistemas Escalables</strong><br>
+														Desarrollo de plataformas web integrales. Desde sitios estáticos optimizados con 
+														Astro hasta sistemas CRUD implementado con patrones MVC y Programación 
+														Orientada a Objetos para una legibilidad y mantención eficiente.
+													</p>
+												</div>
+											</div>
+											<p class="portfoliop">
+												<strong>Tecnologías:</strong><br>
+												<img src="https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white" alt="Astro">
+												<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JS">
+												<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node">
+												<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+											</p>
+										</div>
+									</div>
+									<div class="otherColumn disabled-section">
+										<div class="outline">
+											<h3 class="cardTitle">📂 Desarrollo Móvil</h3>
+											<div class="image-container">							
+												<div class="image main" style="border-radius: 12px; overflow: hidden; margin-bottom: 0.5rem;">
+													<video width="100%" autoplay loop muted playsinline>
+														<source src="images/Moviles/Moviles_preview.mp4" type="video/mp4">
+														Tu navegador no soporta videos.
+													</video>
+												</div>
+												<div style="display: flex; gap: 0.5rem; justify-content: space-between; align-items: center; margin-top: 1rem;">											
+													<div class="topButtonCentered">
+														<!--<a href="#moviles-details2" class="button primary">
+															<i class="fas fa-eye"></i> Ver
+														</a> -->
+														<a href="#"
+															class="button primary"
+															style="
+																	opacity: 0.4;
+																	pointer-events: none;
+																	cursor: not-allowed;
+															">
+																<i class="fas fa-eye"></i> Ver
+															</a>
+														<a href="https://github.com/garcyv" target="_blank" class="button">
+															<i class="fab fa-github"></i> Código
+														</a>
+													</div>
+													<button class="toggle-description icon-action" onclick="toggleDesc(this)" title="Ver descripción detallada">▼</button>
+												</div>	
+												<div class="description-detailed" style="max-height: 0; overflow: hidden; transition: all 0.3s ease-out;">
+													<p style="font-size: 0.9rem; font-style: italic; color: rgba(255,255,255,0.7); padding: 0.5rem 0;">
+														<strong>Aplicaciones Nativas</strong><br>
+														Soluciones móviles desarrolladas con un enfoque en rendimiento y experiencia de usuario. 
+														Incluye proyectos robustos en Java y Kotlin, aplicando patrones de diseño modernos 
+														y arquitectura limpia para Android.
+													</p>
+												</div>
+											</div>
+											<p class="portfoliop">
+												<strong>Tecnologías:</strong><br>
+												<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin">
+												<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
+												<img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" alt="Android Studio">
+											</p>
+										</div>
+									</div>						
+								</div>
+							</container>
+						</div>
+					</div>
+					<!-- Otros Proyectos-->
+					<div class="accordion-item">	
+						<div class="accordion-header">
+							<h3 style="display: flex; align-items: center; gap: 12px;">
+								<span style="
+									color: #ceab6b;
+									font-size: 1.2em;
+									margin-right: 10px;
+									filter: drop-shadow(0 0 6px rgba(206,171,107,0.6));
+								">
+									<i class="fas fa-laptop-code"></i>
+								</span>
+								Otros Proyectos
+							</h3>
+							<span class="accordion-icon">+</span>
+						</div>
+						<!--<div class="accordion-content">
+							<container>
+								<div class="row">
+									<div class="otherColumn">
+										<div class="outline">
+											<h3 class="cardTitle">Day Planner</h3>
+											<img class="cardImg" src="images/Otros/DayPlanner.gif" alt="DayPlanner">
+											<div class="otherButtonCentered">
+												<a href="https://boxnbeeson.github.io/Day-Planner/" target="_blank"
+													class="button primary">LiveLink</a>
+												<a href="https://github.com/boxnbeeson/Day-Planner" target="_blank"
+													class="button">Code</a>
+											</div>
+											<p class="portfoliop">
+												A simple day planner application, allowing the user to log events throughout their
+												day. Information
+												is stored in local storage and will stay upon reload. Block colors change depending
+												on the current time.
+											</p>
+											<p class="portfoliop">
+												Technologies used: HTML, CSS, JavaScript, and JSON.
+											</p>
+										</div>
+									</div>
+									<div class="otherColumn">
+										<div class="outline">
+											<h3 class="cardTitle">Note Taker</h3>
+											<img class="cardImg" src="images/Otros/notetakergif.gif" alt="Note Taker">
+											<div class="otherButtonCentered">
+												<a href="https://github.com/boxnbeeson/Note-Taker" target="_blank"
+													class="button">Code</a>
+											</div>
+											<p class="portfoliop">
+												A CLI application utilizing node.js and inquirer to create simple, automated project README.md files.
+											</p>
+											<p class="portfoliop">
+												Technologies used: JavaScript, CSS, HTML, API, JSON, fs
+											</p>
+										</div>
+									</div>
+									<div class="otherColumn">
+										<div class="outline">
+											<h3 class="cardTitle">Coding Quiz</h3>
+											<img class="cardImg" src="images/codingQuiz.gif" alt="CodingQuiz">
+											<div class="otherButtonCentered">
+												<a href="https://boxnbeeson.github.io/Coding-Quiz/" target="_blank"
+													class="button primary">LiveLink</a>
+												<a href="https://github.com/boxnbeeson/Coding-Quiz" target="_blank"
+													class="button">Code</a>
+											</div>
+											<p class="portfoliop">
+												A web-based application that allows the user to take a simple quiz to test their
+												coding knowledge. Scores
+												are saved to local storage. Scores are calculated based off of the user's input,
+												with incorrect answers
+												taking 15 seconds off of their total time. Users are showed highscores at the end
+												after submitting their score.
+											</p>
+											<p class="portfoliop">
+												Technologies used: HTML, CSS, JavaScript, and JSON.
+											</p>	
+										</div>
+									</div>
+									<div class="otherColumn">
+										<div class="outline">
+											<h3 class="cardTitle">Random Password Generator</h3>
+											<img class="cardImg" src="images/Otros/rpg.gif" alt="RPG">
+											<div class="otherButtonCentered">
+												<a href="https://boxnbeeson.github.io/Random-Password-Generator/" target="_blank"
+													class="button primary">LiveLink</a>
+												<a href="https://github.com/boxnbeeson/Random-Password-Generator" target="_blank"
+													class="button">Code</a>
+											</div>
+											<p class="portfoliop">
+												A simple random password generator that allows the user to select from specific
+												criteria to create a randomized
+												password.
+											</p>
+											<p class="portfoliop">
+												Technologies used: HTML, CSS, and JavaScript.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="otherColumn">
+										<div class="outline">
+											<h3 class="cardTitle">JRMJ</h3>
+											<img class="cardImg" src="images/Otros/JRMJ.png" alt="JRMJ">
+											<div class="otherButtonCentered">
+												<a href="https://github.com/boxnbeeson/Java-Cognizant-Final-Project" target="_blank"
+													class="button">Code</a>
+											</div>
+											<p class="portfoliop">
+												E-commerce website selling high-end shoes with multiple back-end web services.
+											</p>
+											<p class="portfoliop">
+												Technologies used: Java, Spring Boot, MySQL, React, Redux, Stripe, Git
+											</p>
+										</div>
+									</div>
+									<div class="otherColumn">
+										<div class="outline">
+											<h3 class="cardTitle">Dynamic Portfolio</h3>
+											<img class="cardImg" src="images/Otros/DynamicP.png" alt="JRMJ">
+											<div class="otherButtonCentered">
+												<a href="https://boxnbeeson.github.io/CP/" target="_blank"
+													class="button primary">LiveLink</a>
+												<a href="https://github.com/boxnbeeson/CP?tab=readme-ov-file" target="_blank"
+													class="button">Code</a>
+											</div>
+											<p class="portfoliop">
+												Modified HTML5up.net portfolio, working with a more dynamic website layout.
+											</p>
+											<p class="portfoliop">
+												Technologies used: CSS, SCSS, HTML, JavaScript
+											</p>
+										</div>
+									</div>
+								</div>
+							</container>
+						</div>-->
+					</div>
+				</article>
+				
+				<article id="data-science-details">
+					<div style="display: flex; align-items: center; width: 100%; gap: 25px; overflow: hidden; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); padding: 20px;">          					
+						<div style="width: 250px; height: 160px; flex-shrink: 0; overflow: hidden; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">
+							<img src="images/Ciencias/Ciencias_preview.png" alt="Desarrollo Python y lógica" 
+								style="width: 100%; height: 100%; object-fit: cover;">
+						</div>
+						<div style="display: flex; flex-direction: column; justify-content: center; gap: 15px;">
+							
+							<h2 class="major" style="margin: 0; font-size: 1.5rem; line-height: 1.2;">Proyectos: Ciencia de Datos</h2>
+							
+							<ul class="actions" style="margin: 0; list-style: none; padding: 0;">
+								<li><a href="#portfolio" class="button small">Volver</a></li>
+							</ul>
+
+						</div>
+					</div>
+					<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 2rem;">					
+						<container>
+							<div class="otherRow" style="display: flex !important; flex-direction: row !important; align-items: stretch !important; gap: 30px !important; width: 100% !important; padding: 25px; box-sizing: border-box; border-radius: 15px;">
+							
+								<div style="flex: 0 0 50% !important; display: flex; flex-direction: column !important; gap: 10px;">
+									
+									<div class="image-container" style="flex: 1; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.3); border-radius: 12px; overflow: hidden;">
+										<img class="cardImg" src="images/Ciencias/Hab_Salud_estud.png" alt="Señal Trading">
+									</div>
+
+									<div style="height: 50px; display: flex; gap: 15px;">
+										<a href="javascript:void(0)" class="button primary" onclick="irADetalles(event)" style="flex: 1; display: flex; align-items: center; justify-content: center; margin: 0;">
+											<i class="fa-solid fa-eye" style="margin-right: 8px;"></i> Ver
+										</a>
+										<a href="https://github.com/garcyv" target="_blank" class="button" style="flex: 1; display: flex; align-items: center; justify-content: center; margin: 0;">
+											<i class="fa-brands fa-github" style="margin-right: 8px;"></i> GitHub
+										</a>
+									</div>
+								</div>
+
+								<div style="flex: 0 0 50% !important; display: flex; flex-direction: column; justify-content: center; min-width: 0;">
+									<h2 style="margin: 0 0 15px 0; color: #fff; font-size: 1.8rem;">🛠️ Salud Estudiantil</h2>
+									
+									<div style="margin-bottom: 20px;">
+										<h4 style="color: #888; text-transform: uppercase; letter-spacing: 2px; font-size: 0.75rem; border-bottom: 1px solid #333; padding-bottom: 5px; margin-bottom: 10px;">Descripción</h4>
+										<p style="font-size: 1rem; line-height: 1.5; color: #eee; margin: 0;">
+													Este proyecto presenta un análisis estadístico integral sobre cómo la vida universitaria 
+													impacta el bienestar físico de los estudiantes. El estudio emplea un enfoque cuantitativo para evaluar variables críticas 
+													como las horas de sueño, la calidad de la dieta y la carga académica mediante modelos
+													de probabilidad y distribuciones normales, binomiales y de Poisson
+										</p>
+									</div>
+
+									<div>
+										<h4 style="color: #888; text-transform: uppercase; letter-spacing: 2px; font-size: 0.75rem; border-bottom: 1px solid #333; padding-bottom: 5px; margin-bottom: 10px;">Stack</h4>
+										<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+												<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+												<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
+												<img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy"><br>
+												<img src="https://img.shields.io/badge/Matplotlib-ffffff?style=for-the-badge&logo=python&logoColor=black" alt="Matplotlib">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="otherRow" style="display: flex !important; flex-direction: row !important; align-items: stretch !important; gap: 30px !important; width: 100% !important; padding: 25px; box-sizing: border-box; border-radius: 15px;">				
+								<div style="flex: 0 0 50% !important; display: flex; flex-direction: column !important; gap: 10px;">
+									
+									<div class="image-container" style="flex: 1; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.3); border-radius: 12px; overflow: hidden;">
+										<img class="cardImg" src="images/Ciencias/Big_Data_M9.png" alt="Big Data">
+									</div>
+
+									<div style="height: 50px; display: flex; gap: 15px;">
+										<a href="javascript:void(0)" class="button primary" onclick="irADetalles(event)" style="flex: 1; display: flex; align-items: center; justify-content: center; margin: 0;">
+											<i class="fa-solid fa-eye" style="margin-right: 8px;"></i> Ver
+										</a>
+										<a href="https://github.com/garcyv" target="_blank" class="button" style="flex: 1; display: flex; align-items: center; justify-content: center; margin: 0;">
+											<i class="fa-brands fa-github" style="margin-right: 8px;"></i> GitHub
+										</a>
+									</div>
+								</div>
+
+								<div style="flex: 0 0 50% !important; display: flex; flex-direction: column; justify-content: center; min-width: 0;">
+									<h2 style="margin: 0 0 15px 0; color: #fff; font-size: 1.8rem;">🛠️ Big Data</h2>
+									
+									<div style="margin-bottom: 20px;">
+										<h4 style="color: #888; text-transform: uppercase; letter-spacing: 2px; font-size: 0.75rem; border-bottom: 1px solid #333; padding-bottom: 5px; margin-bottom: 10px;">Descripción</h4>
+										<p style="font-size: 1rem; line-height: 1.5; color: #eee; margin: 0;">
+													Este proyecto consiste en el desarrollo de un pipeline de análisis de datos, enfocado en resolver la fragmentación y lentitud del procesamiento masivo de su 
+													comercio electrónico. A través de tecnologías como Apache Spark y Tungsten, el proyecto
+													estructura una solución que aborda las 5V del Big Data
+										</p>
+									</div>
+
+									<div>
+										<h4 style="color: #888; text-transform: uppercase; letter-spacing: 2px; font-size: 0.75rem; border-bottom: 1px solid #333; padding-bottom: 5px; margin-bottom: 10px;">Stack</h4>
+										<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+													<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+													<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
+													<img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy"><br>
+													<img src="https://img.shields.io/badge/Matplotlib-ffffff?style=for-the-badge&logo=python&logoColor=black" alt="Matplotlib">
+										</div>
+									</div>
+								</div>
+							</div>							   
+							<div class="otherRow" style="display: flex !important; flex-direction: row !important; align-items: stretch !important; gap: 30px !important; width: 100% !important; padding: 25px; box-sizing: border-box; border-radius: 15px;">						
+								<div style="flex: 0 0 50% !important; display: flex; flex-direction: column !important; gap: 10px;">
+									
+									<div class="image-container" style="flex: 1; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.3); border-radius: 12px; overflow: hidden;">
+										<img class="cardImg" src="images/Ciencias/cienciadatos_paes2026.png"alt="Paes_2026">
+									</div>
+
+									<div style="height: 50px; display: flex; gap: 15px;">
+										<a href="javascript:void(0)" class="button primary" onclick="irADetalles(event)" style="flex: 1; display: flex; align-items: center; justify-content: center; margin: 0;">
+											<i class="fa-solid fa-eye" style="margin-right: 8px;"></i> Ver
+										</a>
+										<a href="https://github.com/garcyv" target="_blank" class="button" style="flex: 1; display: flex; align-items: center; justify-content: center; margin: 0;">
+											<i class="fa-brands fa-github" style="margin-right: 8px;"></i> GitHub
+										</a>
+									</div>
+								</div>
+
+								<div style="flex: 0 0 50% !important; display: flex; flex-direction: column; justify-content: center; min-width: 0;">
+									<h2 style="margin: 0 0 15px 0; color: #fff; font-size: 1.8rem;">🛠️ Paes 2026</h2>
+									
+									<div style="margin-bottom: 20px;">
+										<h4 style="color: #888; text-transform: uppercase; letter-spacing: 2px; font-size: 0.75rem; border-bottom: 1px solid #333; padding-bottom: 5px; margin-bottom: 10px;">Descripción</h4>
+										<p style="font-size: 1rem; line-height: 1.5; color: #eee; margin: 0;">
+											Este proyecto presenta un análisis acerca de si los estudiantes chilenos que rinden 
+											Prueba de Acceso a la Educación Superior, están aprovechando la oportunidad de rendirla
+											por segunda vez y así subir sus puntajes dado que el sistema se queda con el mejor puntaje 
+											de las múltiples rendiciones.											
+										</p>
+									</div>
+
+									<div>
+										<h4 style="color: #888; text-transform: uppercase; letter-spacing: 2px; font-size: 0.75rem; border-bottom: 1px solid #333; padding-bottom: 5px; margin-bottom: 10px;">Stack</h4>
+										<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+													<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+													<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
+													<img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy"><br>
+													<img src="https://img.shields.io/badge/Matplotlib-ffffff?style=for-the-badge&logo=python&logoColor=black" alt="Matplotlib">
+										</div>
+									</div>
+								</div>
+							</div>	
+							<div class="otherRow" style="display: flex !important; flex-direction: row !important; align-items: stretch !important; gap: 30px !important; width: 100% !important; padding: 25px; box-sizing: border-box; border-radius: 15px;">						
+								<div style="flex: 0 0 50% !important; display: flex; flex-direction: column !important; gap: 10px;">
+									
+									<div class="image-container" style="flex: 1; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.3); border-radius: 12px; overflow: hidden;">
+										<img class="cardImg" src="images/Ciencias/ABP_M7.png" alt="Segmentacion">
+									</div>
+
+									<div style="height: 50px; display: flex; gap: 15px;">
+										<a href="javascript:void(0)" class="button primary" onclick="irADetalles(event)" style="flex: 1; display: flex; align-items: center; justify-content: center; margin: 0;">
+											<i class="fa-solid fa-eye" style="margin-right: 8px;"></i> Ver
+										</a>
+										<a href="https://github.com/garcyv" target="_blank" class="button" style="flex: 1; display: flex; align-items: center; justify-content: center; margin: 0;">
+											<i class="fa-brands fa-github" style="margin-right: 8px;"></i> GitHub
+										</a>
+									</div>
+								</div>
+
+								<div style="flex: 0 0 50% !important; display: flex; flex-direction: column; justify-content: center; min-width: 0;">
+									<h2 style="margin: 0 0 15px 0; color: #fff; font-size: 1.8rem;">🛠️ Segmentación de Clientes</h2>
+									
+									<div style="margin-bottom: 20px;">
+										<h4 style="color: #888; text-transform: uppercase; letter-spacing: 2px; font-size: 0.75rem; border-bottom: 1px solid #333; padding-bottom: 5px; margin-bottom: 10px;">Descripción</h4>
+										<p style="font-size: 1rem; line-height: 1.5; color: #eee; margin: 0;">
+											En este proyecto se realiza una segmentación de clientes mediante técnicas de aprendizaje no supervisado.
+											Se aplican conceptos como clusterización, detección de anomalías y la reducción de
+											dimensionalidad.Por medio de K-Means, se identifican cuatro perfiles estratégicos. 
+											Para validar estos hallazgos, se comparan herramientas de visualización como PCA y t-SNE											
+										</p>
+									</div>
+
+									<div>
+										<h4 style="color: #888; text-transform: uppercase; letter-spacing: 2px; font-size: 0.75rem; border-bottom: 1px solid #333; padding-bottom: 5px; margin-bottom: 10px;">Stack</h4>
+										<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+													<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+													<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
+													<img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy"><br>
+													<img src="https://img.shields.io/badge/Matplotlib-ffffff?style=for-the-badge&logo=python&logoColor=black" alt="Matplotlib">
+										</div>
+									</div>
+								</div>
+							</div>
+						</container>					
+					</div>				
+					<ul class="actions">
+						<li><a href="#portfolio" class="button">Volver al Portfolio</a></li>
+					</ul>
+				</article>
+
+				<article id="python-logic-details">
+					<div style="display: flex; align-items: center; width: 100%; gap: 25px; overflow: hidden; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); padding: 20px;">           
+						
+						<div style="width: 250px; height: 160px; flex-shrink: 0; overflow: hidden; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">
+							<img src="images/Python/Python_preview.png" alt="Desarrollo Python y lógica" 
+								style="width: 100%; height: 100%; object-fit: cover;">
+						</div>
+
+						<div style="display: flex; flex-direction: column; justify-content: center; gap: 15px;">
+							
+							<h2 class="major" style="margin: 0; font-size: 1.5rem; line-height: 1.2;">Proyectos: Lógica y Python</h2>
+							
+							<ul class="actions" style="margin: 0; list-style: none; padding: 0;">
+								<li><a href="#portfolio" class="button small">Volver</a></li>
+							</ul>
+
+						</div>
+
+					</div>
+					<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 2rem;">
+						<container>
+							<div class="otherRow" style="display: flex !important; flex-direction: row !important; align-items: stretch !important; gap: 30px !important; width: 100% !important; padding: 25px; box-sizing: border-box; border-radius: 15px;">
+								
+								<div style="flex: 0 0 50% !important; display: flex; flex-direction: column !important; gap: 10px;">
+									
+									<div class="image-container" style="flex: 1; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.3); border-radius: 12px; overflow: hidden;">
+										<img class="cardImg zoomable" 
+											src="images/Python/shiny_trading.png" 
+											alt="Señal Trading" 
+											style="width: 100%; height: auto; max-height: 100%; object-fit: contain; cursor: zoom-in;" 
+											onclick="forzarZoom(this)">
+									</div>
+
+									<div style="height: 50px; display: flex; gap: 15px;">
+										<a href="javascript:void(0)" class="button primary" onclick="irADetalles(event)" style="flex: 1; display: flex; align-items: center; justify-content: center; margin: 0;">
+											<i class="fa-solid fa-eye" style="margin-right: 8px;"></i> Ver
+										</a>
+										<a href="https://github.com/garcyv" target="_blank" class="button" style="flex: 1; display: flex; align-items: center; justify-content: center; margin: 0;">
+											<i class="fa-brands fa-github" style="margin-right: 8px;"></i> GitHub
+										</a>
+									</div>
+								</div>
+
+								<div style="flex: 0 0 50% !important; display: flex; flex-direction: column; justify-content: center; min-width: 0;">
+									<h2 style="margin: 0 0 15px 0; color: #fff; font-size: 1.8rem;">🛠️ SEÑAL TRADING</h2>
+									
+									<div style="margin-bottom: 20px;">
+										<h4 style="color: #888; text-transform: uppercase; letter-spacing: 2px; font-size: 0.75rem; border-bottom: 1px solid #333; padding-bottom: 5px; margin-bottom: 10px;">Descripción</h4>
+										<p style="font-size: 1rem; line-height: 1.5; color: #eee; margin: 0;">
+											Aplicación interactiva desarrollada con Python que permite visualizar y 
+											analizar señales de trading basadas en el cruce de medias móviles (SMA) para activos
+											financieros reales utilizando datos de Yahoo Finance.
+											<h4>🚀 Características</h4>
+											<ul>
+												<li><b>Datos en Tiempo Real:</b> Obtención de precios actualizados mediante la librería `yfinance`.</li>
+												<li><b>Estrategia de Medias Móviles:</b> Cruce de Media Móvil Simple (SMA) corta y larga.</li>
+											</ul>
+										</p>
+									</div>
+
+									<div>
+										<h4 style="color: #888; text-transform: uppercase; letter-spacing: 2px; font-size: 0.75rem; border-bottom: 1px solid #333; padding-bottom: 5px; margin-bottom: 10px;">Stack</h4>
+										<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+											<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+											<img src="https://img.shields.io/badge/OOP-Programming-4B8BBE?style=for-the-badge">
+											<img src="https://img.shields.io/badge/Automation-FFD43B?style=for-the-badge&logo=python&logoColor=black">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="otherRow" style="display: flex !important; flex-direction: row !important; align-items: stretch !important; gap: 30px !important; width: 100% !important; padding: 25px; box-sizing: border-box; border-radius: 15px;">
+								
+								<div style="flex: 0 0 50% !important; display: flex; flex-direction: column !important; gap: 10px;">
+									
+									<div class="image-container" style="flex: 1; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.3); border-radius: 12px; overflow: hidden;">
+										<img class="cardImg" src="images/Python/Triple_Screen.png" alt="Señal Trading">
+									</div>
+
+									<div style="height: 50px; display: flex; gap: 15px;">
+										<a href="javascript:void(0)" class="button primary" onclick="irADetalles(event)" style="flex: 1; display: flex; align-items: center; justify-content: center; margin: 0;">
+											<i class="fa-solid fa-eye" style="margin-right: 8px;"></i> Ver
+										</a>
+										<a href="https://github.com/garcyv" target="_blank" class="button" style="flex: 1; display: flex; align-items: center; justify-content: center; margin: 0;">
+											<i class="fa-brands fa-github" style="margin-right: 8px;"></i> GitHub
+										</a>
+									</div>
+								</div>
+
+								<div style="flex: 0 0 50% !important; display: flex; flex-direction: column; justify-content: center; min-width: 0;">
+									<h2 style="margin: 0 0 15px 0; color: #fff; font-size: 1.8rem;">🛠️ TRIPLE SCREEN</h2>
+									
+									<div style="margin-bottom: 20px;">
+										<h4 style="color: #888; text-transform: uppercase; letter-spacing: 2px; font-size: 0.75rem; border-bottom: 1px solid #333; padding-bottom: 5px; margin-bottom: 10px;">Descripción</h4>
+										<p style="font-size: 1rem; line-height: 1.5; color: #eee; margin: 0;">
+											Implementación en Python del sistema de trading Triple Screen,
+											diseñado originalmente por Alexander Elder. La metodología utiliza
+											tres niveles de análisis temporal para validar operaciones, empleando
+											el MACD en gráficos semanales para determinar la tendencia principal y 
+											el oscilador estocástico en gráficos diarios para identificar retrocesos
+										</p>
+									</div>
+
+									<div>
+										<h4 style="color: #888; text-transform: uppercase; letter-spacing: 2px; font-size: 0.75rem; border-bottom: 1px solid #333; padding-bottom: 5px; margin-bottom: 10px;">Stack</h4>
+										<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+											<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+											<img src="https://img.shields.io/badge/OOP-Programming-4B8BBE?style=for-the-badge">
+											<img src="https://img.shields.io/badge/Automation-FFD43B?style=for-the-badge&logo=python&logoColor=black">
+										</div>
+									</div>
+								</div>
+							</div>
+						</container>			
+					</div>
+					<ul class="actions">
+						<li><a href="#portfolio" class="button">Volver al Portfolio</a></li>
+					</ul>
+				</article>
+				
+				<article id="Cuantica-details">
+					<div style="display: flex; align-items: center; width: 100%; gap: 25px; overflow: hidden; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); padding: 20px;">           
+						
+						<div style="width: 250px; height: 160px; flex-shrink: 0; overflow: hidden; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">
+							<img src="images/Cuantica/Cuantica_preview.png" alt="algoritmos Cuanticos" 
+								style="width: 100%; height: 100%; object-fit: cover;">
+						</div>
+
+						<div style="display: flex; flex-direction: column; justify-content: center; gap: 15px;">
+							
+							<h2 class="major" style="margin: 0; font-size: 1.5rem; line-height: 1.2;">Proyectos: Algoritmos Cuánticos</h2>
+							
+							<ul class="actions" style="margin: 0; list-style: none; padding: 0;">
+								<li><a href="#portfolio" class="button small">Volver</a></li>
+							</ul>
+
+						</div>
+
+					</div>
+					<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 2rem;">
+						<container>
+							<div class="otherRow" style="display: flex !important; flex-direction: row !important; align-items: stretch !important; gap: 30px !important; width: 100% !important; padding: 25px; box-sizing: border-box; border-radius: 15px;">
+								
+								<div style="flex: 0 0 50% !important; display: flex; flex-direction: column !important; gap: 10px;">
+									
+									<div class="image-container" style="flex: 1; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.3); border-radius: 12px; overflow: hidden;">
+										<img class="cardImg zoomable" 
+											src="images/Cuantica/Deutsch-Jozsa.png" 
+											alt="Señal Trading" 
+											style="width: 100%; height: auto; max-height: 100%; object-fit: contain; cursor: zoom-in;" 
+											onclick="forzarZoom(this)">
+									</div>
+
+									<div style="height: 50px; display: flex; gap: 15px;">
+										<a href="javascript:void(0)" class="button primary" onclick="irADetalles(event)" style="flex: 1; display: flex; align-items: center; justify-content: center; margin: 0;">
+											<i class="fa-solid fa-eye" style="margin-right: 8px;"></i> Ver
+										</a>
+										<a href="https://github.com/garcyv" target="_blank" class="button" style="flex: 1; display: flex; align-items: center; justify-content: center; margin: 0;">
+											<i class="fa-brands fa-github" style="margin-right: 8px;"></i> GitHub
+										</a>
+									</div>
+								</div>
+
+								<div style="flex: 0 0 50% !important; display: flex; flex-direction: column; justify-content: center; min-width: 0;">
+									<h2 style="margin: 0 0 15px 0; color: #fff; font-size: 1.8rem;">🛠️Algoritmo de Deutsch-Jozsa</h2>
+									
+									<div style="margin-bottom: 20px;">
+										<h4 style="color: #888; text-transform: uppercase; letter-spacing: 2px; font-size: 0.75rem; border-bottom: 1px solid #333; padding-bottom: 5px; margin-bottom: 10px;">Descripción</h4>
+										<p style="font-size: 1rem; line-height: 1.5; color: #eee; margin: 0;">
+												Implementación práctica del algoritmo de Deutsch-Jozsa utilizando la librería Qiskit
+												en un entorno de Python. El objetivo principal es clasificar una función oculta, 
+												representada por un oráculo, como constante si siempre devuelve el mismo valor o balanceada
+												si sus resultados se dividen equitativamente. 
+												<h4>🚀 Características</h4>
+											<ul>
+												<li><b>Configuración de Circuitos Cuánticos:</b> Un circuito que implementa el oráculo constante.</li>
+												<li><b>Compuertas:</b> X, Hadamard</li>
+												<li><b>Visualizaciones:</b> Esferas de Bloch y matrices de operadores..</li>
+											</ul>
+										</p>
+									</div>
+
+									<div>
+										<h4 style="color: #888; text-transform: uppercase; letter-spacing: 2px; font-size: 0.75rem; border-bottom: 1px solid #333; padding-bottom: 5px; margin-bottom: 10px;">Stack</h4>
+										<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+												<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+												<img src="https://img.shields.io/badge/Matplotlib-ffffff?style=for-the-badge&logo=python&logoColor=black" alt="Matplotlib">
+												<img src="https://img.shields.io/badge/Qiskit-117498?style=for-the-badge&logo=qiskit&logoColor=white" alt="Qiskit">
+												<img src="https://img.shields.io/badge/IBM%20Quantum-0062FF?style=for-the-badge&logo=ibm-quantum&logoColor=white" alt="IBM Quantum">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="otherRow" style="display: flex !important; flex-direction: row !important; align-items: stretch !important; gap: 30px !important; width: 100% !important; padding: 25px; box-sizing: border-box; border-radius: 15px;">
+								
+								<div style="flex: 0 0 50% !important; display: flex; flex-direction: column !important; gap: 10px;">
+									
+									<div class="image-container" style="flex: 1; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.3); border-radius: 12px; overflow: hidden;">
+										<img class="cardImg zoomable" 
+											src="images/Cuantica/QCNN.png" 
+											alt="Señal Trading" 
+											style="width: 100%; height: auto; max-height: 100%; object-fit: contain; cursor: zoom-in;" 
+											onclick="forzarZoom(this)">
+									</div>
+
+									<div style="height: 50px; display: flex; gap: 15px;">
+										<a href="javascript:void(0)" class="button primary" onclick="irADetalles(event)" style="flex: 1; display: flex; align-items: center; justify-content: center; margin: 0;">
+											<i class="fa-solid fa-eye" style="margin-right: 8px;"></i> Ver
+										</a>
+										<a href="https://github.com/garcyv" target="_blank" class="button" style="flex: 1; display: flex; align-items: center; justify-content: center; margin: 0;">
+											<i class="fa-brands fa-github" style="margin-right: 8px;"></i> GitHub
+										</a>
+									</div>
+								</div>
+
+								<div style="flex: 0 0 50% !important; display: flex; flex-direction: column; justify-content: center; min-width: 0;">
+									<h2 style="margin: 0 0 15px 0; color: #fff; font-size: 1.8rem;">🛠️ Red QCNN</h2>
+									
+									<div style="margin-bottom: 20px;">
+										<h4 style="color: #888; text-transform: uppercase; letter-spacing: 2px; font-size: 0.75rem; border-bottom: 1px solid #333; padding-bottom: 5px; margin-bottom: 10px;">Descripción</h4>
+										<p style="font-size: 1rem; line-height: 1.5; color: #eee; margin: 0;">
+												Ejemplo práctico de programación en Python y PennyLane para implementar 
+												una  red neuronal convolucional cuánticas (QCNN) para la clasificación de imágenes digitales.
+												Se describe la arquitectura de estos sistemas, los cuales emplean capas convolucionales
+												para extraer patrones y capas de agrupación para reducir la dimensionalidad
+												<h4>🚀 Características</h4>
+											<ul>
+												<li><b>Configuración de Circuitos Cuánticos:</b>QCNN</li>
+												<li><b>Compuertas:</b> X, Hadamard</li>
+												<li><b>Visualizaciones:</b> Esferas de Bloch y matrices de operadores..</li>
+											</ul>
+										</p>
+									</div>
+
+									<div>
+										<h4 style="color: #888; text-transform: uppercase; letter-spacing: 2px; font-size: 0.75rem; border-bottom: 1px solid #333; padding-bottom: 5px; margin-bottom: 10px;">Stack</h4>
+										<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+												<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+												<img src="https://img.shields.io/badge/Matplotlib-ffffff?style=for-the-badge&logo=python&logoColor=black" alt="Matplotlib">
+												<img src="https://img.shields.io/badge/Qiskit-117498?style=for-the-badge&logo=qiskit&logoColor=white" alt="Qiskit">
+												<img src="https://img.shields.io/badge/IBM%20Quantum-0062FF?style=for-the-badge&logo=ibm-quantum&logoColor=white" alt="IBM Quantum">
+										</div>
+									</div>
+								</div>
+							</div>	
+							<div class="otherRow" style="display: flex !important; flex-direction: row !important; align-items: stretch !important; gap: 30px !important; width: 100% !important; padding: 25px; box-sizing: border-box; border-radius: 15px;">
+								
+								<div style="flex: 0 0 50% !important; display: flex; flex-direction: column !important; gap: 10px;">
+									
+									<div class="image-container" style="flex: 1; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.3); border-radius: 12px; overflow: hidden;">
+										<img class="cardImg zoomable" 
+											src="images/Cuantica/Alg_Simon.png" 
+											alt="Señal Trading" 
+											style="width: 100%; height: auto; max-height: 100%; object-fit: contain; cursor: zoom-in;" 
+											onclick="forzarZoom(this)">
+									</div>
+
+									<div style="height: 50px; display: flex; gap: 15px;">
+										<a href="javascript:void(0)" class="button primary" onclick="irADetalles(event)" style="flex: 1; display: flex; align-items: center; justify-content: center; margin: 0;">
+											<i class="fa-solid fa-eye" style="margin-right: 8px;"></i> Ver
+										</a>
+										<a href="https://github.com/garcyv" target="_blank" class="button" style="flex: 1; display: flex; align-items: center; justify-content: center; margin: 0;">
+											<i class="fa-brands fa-github" style="margin-right: 8px;"></i> GitHub
+										</a>
+									</div>
+								</div>
+
+								<div style="flex: 0 0 50% !important; display: flex; flex-direction: column; justify-content: center; min-width: 0;">
+									<h2 style="margin: 0 0 15px 0; color: #fff; font-size: 1.8rem;">🛠️ Algoritmo de Simon</h2>
+									
+									<div style="margin-bottom: 20px;">
+										<h4 style="color: #888; text-transform: uppercase; letter-spacing: 2px; font-size: 0.75rem; border-bottom: 1px solid #333; padding-bottom: 5px; margin-bottom: 10px;">Descripción</h4>
+										<p style="font-size: 1rem; line-height: 1.5; color: #eee; margin: 0;">
+												Programación en Python y PennyLane que implementa el Algortmo de Simon.
+												Este algoritmo cuántico  resuelve un problema relacionado con la búsqueda de periodicidad en funciones.
+												Proporciona una aceleración exponencial con respecto a los mejores algoritmos clásicos
+												conocidos para el mismo problema y tiene aplicaciones en criptografía y teoría de la informática.
+												<h4>🚀 Características</h4>
+											<ul>
+												<li><b>Configuración de Circuitos Cuánticos:</b> Simon/li>
+												<li><b>Compuertas:</b> XOr, Hadamard</li>
+												<li><b>Visualizaciones:</b> Mathplotlib</li>
+											</ul>
+										</p>
+									</div>
+
+									<div>
+										<h4 style="color: #888; text-transform: uppercase; letter-spacing: 2px; font-size: 0.75rem; border-bottom: 1px solid #333; padding-bottom: 5px; margin-bottom: 10px;">Stack</h4>
+										<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+												<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+												<img src="https://img.shields.io/badge/Matplotlib-ffffff?style=for-the-badge&logo=python&logoColor=black" alt="Matplotlib">
+												<img src="https://img.shields.io/badge/Qiskit-117498?style=for-the-badge&logo=qiskit&logoColor=white" alt="Qiskit">
+												<img src="https://img.shields.io/badge/IBM%20Quantum-0062FF?style=for-the-badge&logo=ibm-quantum&logoColor=white" alt="IBM Quantum">
+										</div>
+									</div>
+								</div>
+							</div>							
+						</container>			
+					</div>
+					<ul class="actions">
+						<li><a href="#portfolio" class="button">Volver al Portfolio</a></li>
+					</ul>
+				</article>				
+
+				<article id="MedioAmbiente-details" >
+					<div style="display: flex; align-items: center; width: 100%; gap: 25px; overflow: hidden; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); padding: 20px;">           
+						
+						<div style="width: 250px; height: 160px; flex-shrink: 0; overflow: hidden; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">
+							<img src="images/MedioAmbiente/MedioAmbiente_preview.png" alt="Medio ambientales" 
+								style="width: 100%; height: 100%; object-fit: cover;">
+						</div>
+
+						<div style="display: flex; flex-direction: column; justify-content: center; gap: 15px;">
+							
+							<h2 class="major" style="margin: 0; font-size: 1.5rem; line-height: 1.2;">Proyectos: Medio Ambientales</h2>
+							
+							<ul class="actions" style="margin: 0; list-style: none; padding: 0;">
+								<li><a href="#portfolio" class="button small">Volver</a></li>
+							</ul>
+
+						</div>
+
+					</div>
+					<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 2rem;">
+						<container>
+							<div class="otherRow" style="display: flex !important; flex-direction: row !important; align-items: stretch !important; gap: 30px !important; width: 100% !important; padding: 25px; box-sizing: border-box; border-radius: 15px;">
+								
+								<div style="flex: 0 0 50% !important; display: flex; flex-direction: column !important; gap: 10px;">
+									
+									<div class="image-container" style="flex: 1; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.3); border-radius: 12px; overflow: hidden;">
+										<img class="cardImg zoomable" 
+											src="images/Python/shiny_trading.png" 
+											alt="Señal Trading" 
+											style="width: 100%; height: auto; max-height: 100%; object-fit: contain; cursor: zoom-in;" 
+											onclick="forzarZoom(this)">
+									</div>
+
+									<div style="height: 50px; display: flex; gap: 15px;">
+										<a href="javascript:void(0)" class="button primary" onclick="irADetalles(event)" style="flex: 1; display: flex; align-items: center; justify-content: center; margin: 0;">
+											<i class="fa-solid fa-eye" style="margin-right: 8px;"></i> Ver
+										</a>
+										<a href="https://github.com/garcyv" target="_blank" class="button" style="flex: 1; display: flex; align-items: center; justify-content: center; margin: 0;">
+											<i class="fa-brands fa-github" style="margin-right: 8px;"></i> GitHub
+										</a>
+									</div>
+								</div>
+
+								<div style="flex: 0 0 50% !important; display: flex; flex-direction: column; justify-content: center; min-width: 0;">
+									<h2 style="margin: 0 0 15px 0; color: #fff; font-size: 1.8rem;">🛠️ SEÑAL TRADING</h2>
+									
+									<div style="margin-bottom: 20px;">
+										<h4 style="color: #888; text-transform: uppercase; letter-spacing: 2px; font-size: 0.75rem; border-bottom: 1px solid #333; padding-bottom: 5px; margin-bottom: 10px;">Descripción</h4>
+										<p style="font-size: 1rem; line-height: 1.5; color: #eee; margin: 0;">
+											Aplicación interactiva desarrollada con Python que permite visualizar y 
+											analizar señales de trading basadas en el cruce de medias móviles (SMA) para activos
+											financieros reales utilizando datos de Yahoo Finance.
+											<h4>🚀 Características</h4>
+											<ul>
+												<li><b>Datos en Tiempo Real:</b> Obtención de precios actualizados mediante la librería `yfinance`.</li>
+												<li><b>Estrategia de Medias Móviles:</b> Cruce de Media Móvil Simple (SMA) corta y larga.</li>
+											</ul>
+										</p>
+									</div>
+
+									<div>
+										<h4 style="color: #888; text-transform: uppercase; letter-spacing: 2px; font-size: 0.75rem; border-bottom: 1px solid #333; padding-bottom: 5px; margin-bottom: 10px;">Stack</h4>
+										<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+											<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+											<img src="https://img.shields.io/badge/OOP-Programming-4B8BBE?style=for-the-badge">
+											<img src="https://img.shields.io/badge/Automation-FFD43B?style=for-the-badge&logo=python&logoColor=black">
+										</div>
+									</div>
+								</div>
+							</div>
+						</container>			
+					</div>
+					<ul class="actions">
+						<li><a href="#portfolio" class="button">Volver al Portfolio</a></li>
+					</ul>
+				</article>
+
+				<article id="web-details">
+					<div style="display: flex; align-items: center; width: 100%; gap: 25px; overflow: hidden; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); padding: 20px;">           
+						
+						<div style="width: 250px; height: 160px; flex-shrink: 0; overflow: hidden; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">
+							<img src="images/Web/Web_preview.png" alt="Desarrollo web" 
+								style="width: 100%; height: 100%; object-fit: cover;">
+						</div>
+
+						<div style="display: flex; flex-direction: column; justify-content: center; gap: 15px;">
+							
+							<h2 class="major" style="margin: 0; font-size: 1.5rem; line-height: 1.2;">Proyectos: DEsarrollo Web</h2>
+							
+							<ul class="actions" style="margin: 0; list-style: none; padding: 0;">
+								<li><a href="#portfolio" class="button small">Volver</a></li>
+							</ul>
+
+						</div>
+
+					</div>
+					<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 2rem;">
+						<container>
+							<div class="row">
+								<div class="otherColumn">
+									<div class="outline">
+										<h3 class="cardTitle">🛠️ Señal Trading</h3>								
+										<div class="image-container">
+											<div>
+												<img class="cardImg" src="images/Python/shiny_trading.png" alt="Shiny_Trading">
+											</div>
+											<div style="display: flex; gap: 0.5rem; justify-content: space-between; align-items: center; margin-top: 1rem;">											
+												<div class="topButtonCentered">
+													<a href="#python-logic-details" class="button primary">
+														<i class="fa-solid fa-eye"></i> Ver
+													</a>
+													
+													<a href="https://github.com/garcyv" target="_blank" class="button">
+														<i class="fa-brands fa-github"></i> Código
+													</a>
+												</div>
+												<button class="toggle-description icon-action" onclick="toggleDesc(this)" title="Ver descripción detallada">▼</button>
+											</div>
+											<div class="description-detailed" style="max-height: 0; overflow: hidden; transition: all 0.3s ease-out;">
+												<!--<p style="font-size: 0.9rem; font-style: italic; color: rgba(255,255,255,0.7); padding: 0.5rem 0;"> -->
+												<p class="portfoliop"></p>
+													Esta es una aplicación interactiva desarrollada con Python que permite visualizar
+													y analizar señales de trading basadas en el cruce de medias móviles (SMA) para activos
+													financieros reales utilizando datos de Yahoo Finance.
+													🚀 Características
+													Datos en Tiempo Real: Obtención de precios actualizados mediante la librería `yfinance`.
+													Estrategia de Medias Móviles:
+													Cruce de Media Móvil Simple (SMA) corta y larga.
+												</p>
+											</div>
+										</div>
+										<p class="portfoliop">
+												<strong>Tecnologías:</strong><br>
+												<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+												<img src="https://img.shields.io/badge/OOP-Programming-4B8BBE?style=for-the-badge" alt="POO">
+												<img src="https://img.shields.io/badge/Scripts-Automation-FFD43B?style=for-the-badge&logo=python&logoColor=black" alt="Automation">
+										</p>
+									</div>
+								</div>
+								<div class="otherColumn">
+									<div class="outline">
+										<h3 class="cardTitle">🛠️ Señal Trading</h3>							
+										<div class="image-container">
+											<div>
+												<img class="cardImg" src="images/Python/shiny_trading.png" alt="Shiny_Trading">
+											</div>
+											<div style="display: flex; gap: 0.5rem; justify-content: space-between; align-items: center; margin-top: 1rem;">											
+												<div class="topButtonCentered">
+													<a href="#python-logic-details" class="button primary">
+														<i class="fa-solid fa-eye"></i> Ver
+													</a>
+													
+													<a href="https://github.com/garcyv" target="_blank" class="button">
+														<i class="fa-brands fa-github"></i> Código
+													</a>
+												</div>
+												<button class="toggle-description icon-action" onclick="toggleDesc(this)" title="Ver descripción detallada">▼</button>
+											</div>
+											<div class="description-detailed" style="max-height: 0; overflow: hidden; transition: all 0.3s ease-out;">
+												<!--<p style="font-size: 0.9rem; font-style: italic; color: rgba(255,255,255,0.7); padding: 0.5rem 0;"> -->
+												<p class="portfoliop"></p>
+													Esta es una aplicación interactiva desarrollada con Python que permite visualizar
+													y analizar señales de trading basadas en el cruce de medias móviles (SMA) para activos
+													financieros reales utilizando datos de Yahoo Finance.
+													🚀 Características
+													Datos en Tiempo Real: Obtención de precios actualizados mediante la librería `yfinance`.
+													Estrategia de Medias Móviles:
+													Cruce de Media Móvil Simple (SMA) corta y larga.
+												</p>
+											</div>
+										</div>
+										<p class="portfoliop">
+												<strong>Tecnologías:</strong><br>
+												<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+												<img src="https://img.shields.io/badge/OOP-Programming-4B8BBE?style=for-the-badge" alt="POO">
+												<img src="https://img.shields.io/badge/Scripts-Automation-FFD43B?style=for-the-badge&logo=python&logoColor=black" alt="Automation">
+										</p>
+									</div>
+								</div>
+							</div>
+						</container>			
+					</div>
+					<ul class="actions">
+						<li><a href="#portfolio" class="button">Volver al Portfolio</a></li>
+					</ul>
+				</article>
+				
+				<article id="moviles-details">
+					<div style="display: flex; align-items: center; width: 100%; gap: 25px; overflow: hidden; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); padding: 20px;">           
+						
+						<div style="width: 250px; height: 160px; flex-shrink: 0; overflow: hidden; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">
+							<img src="images/Moviles/Moviles_preview.png" alt="Desarrollo Python y lógica" 
+								style="width: 100%; height: 100%; object-fit: cover;">
+						</div>
+
+						<div style="display: flex; flex-direction: column; justify-content: center; gap: 15px;">
+							
+							<h2 class="major" style="margin: 0; font-size: 1.5rem; line-height: 1.2;">Proyectos: Aplicaciones Móviles</h2>
+							
+							<ul class="actions" style="margin: 0; list-style: none; padding: 0;">
+								<li><a href="#portfolio" class="button small">Volver</a></li>
+							</ul>
+
+						</div>
+
+					</div>
+					<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 2rem;">
+						<container>
+							<div class="otherRow" style="display: flex !important; flex-direction: row !important; align-items: stretch !important; gap: 30px !important; width: 100% !important; padding: 25px; box-sizing: border-box; border-radius: 15px;">
+								
+								<div style="flex: 0 0 50% !important; display: flex; flex-direction: column !important; gap: 10px;">
+									
+									<div class="image-container" style="flex: 1; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.3); border-radius: 12px; overflow: hidden;">
+										<img class="cardImg zoomable" 
+											src="images/Python/shiny_trading.png" 
+											alt="Señal Trading" 
+											style="width: 100%; height: auto; max-height: 100%; object-fit: contain; cursor: zoom-in;" 
+											onclick="forzarZoom(this)">
+									</div>
+
+									<div style="height: 50px; display: flex; gap: 15px;">
+										<a href="javascript:void(0)" class="button primary" onclick="irADetalles(event)" style="flex: 1; display: flex; align-items: center; justify-content: center; margin: 0;">
+											<i class="fa-solid fa-eye" style="margin-right: 8px;"></i> Ver
+										</a>
+										<a href="https://github.com/garcyv" target="_blank" class="button" style="flex: 1; display: flex; align-items: center; justify-content: center; margin: 0;">
+											<i class="fa-brands fa-github" style="margin-right: 8px;"></i> GitHub
+										</a>
+									</div>
+								</div>
+
+								<div style="flex: 0 0 50% !important; display: flex; flex-direction: column; justify-content: center; min-width: 0;">
+									<h2 style="margin: 0 0 15px 0; color: #fff; font-size: 1.8rem;">🛠️ SEÑAL TRADING</h2>
+									
+									<div style="margin-bottom: 20px;">
+										<h4 style="color: #888; text-transform: uppercase; letter-spacing: 2px; font-size: 0.75rem; border-bottom: 1px solid #333; padding-bottom: 5px; margin-bottom: 10px;">Descripción</h4>
+										<p style="font-size: 1rem; line-height: 1.5; color: #eee; margin: 0;">
+											Aplicación interactiva desarrollada con Python que permite visualizar y 
+											analizar señales de trading basadas en el cruce de medias móviles (SMA) para activos
+											financieros reales utilizando datos de Yahoo Finance.
+											<h4>🚀 Características</h4>
+											<ul>
+												<li><b>Datos en Tiempo Real:</b> Obtención de precios actualizados mediante la librería `yfinance`.</li>
+												<li><b>Estrategia de Medias Móviles:</b> Cruce de Media Móvil Simple (SMA) corta y larga.</li>
+											</ul>
+										</p>
+									</div>
+
+									<div>
+										<h4 style="color: #888; text-transform: uppercase; letter-spacing: 2px; font-size: 0.75rem; border-bottom: 1px solid #333; padding-bottom: 5px; margin-bottom: 10px;">Stack</h4>
+										<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+											<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+											<img src="https://img.shields.io/badge/OOP-Programming-4B8BBE?style=for-the-badge">
+											<img src="https://img.shields.io/badge/Automation-FFD43B?style=for-the-badge&logo=python&logoColor=black">
+										</div>
+									</div>
+								</div>
+							</div>
+						</container>			
+					</div>
+					<ul class="actions">
+						<li><a href="#portfolio" class="button">Volver al Portfolio</a></li>
+					</ul>
+				</article>
+				
+				<!-- Resume -->
+				<article id="resumeCV">
+					<h1 class="major">Curriculum vitae</h1>		
+											<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/garcyvalenzuela/" target="_blank"
+								class="icon brands fa-linkedin" title="LinkedIn"><span class="label">LinkedIn</span></a></li>
+							<!-- <li><a href="https://www.instagram.com/boxnbeeson" target="_blank"
+								class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
+							<li><a href="https://github.com/garcyv" target="_blank" class="icon brands fa-github" title="GitHub"><span
+								class="label">GitHub</span></a></li>
+							<li><a href="https://www.youtube.com/channel/UCY5vt8M_62zLrfwzJgSxcuA" target="_blank" class="icon brands fa-youtube" title="YouTube"><span
+								class="label">YouTube</span></a></li> 
+							<li><a href="images/Portada/CV_Garcy_Valenzuela_Peña_2026-04.pdf" target="_blank"
+								class="icon far fa-file" title="Resume"><span class="label">Resume</span></a></li>
+						</ul>
+					<h4 class="major" style="display: flex; flex-direction: column; gap: 4px;">
+						<span style="font-size: 1.1em; font-weight: 600;">
+							Garcy Valenzuela Peña
+						</span>
+						<a href="mailto:garcyv@gmail.com" style="
+							display: flex;
+							align-items: center;
+							gap: 6px;
+							font-size: 0.75em;
+							color: #aaa;
+							text-decoration: none;
+						">
+							<i class="fas fa-envelope" style="color:#ceab6b;"></i>
+							garcyv@gmail.com
+						</a>
+					</h4>
+					<!-- Educsación-->	
+					<div class="accordion-item">
+						<div class="accordion-header">
+							<h3 style="display: flex; align-items: center; gap: 12px;">
+								<span style="
+									color: #ceab6b;
+									font-size: 1.2em;
+									margin-right: 10px;
+									filter: drop-shadow(0 0 6px rgba(206,171,107,0.6));
+								">
+									<i class="fas fa-user-graduate"></i>
+								</span>
+								Educación
+							</h3>
+							<span class="accordion-icon">+</span>
+						</div>
+						<div class="accordion-content">
+							<!-- Ingeniería -->			
+							<div class="card-academica" style="
+								max-width: 900px; 
+								margin: 20px auto; 
+								background: rgba(255, 255, 255, 0.05); 
+								border: 1px solid rgba(206, 171, 107, 0.4); 
+								border-radius: 12px; 
+								padding: 20px; 
+								font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+								color: #d1d1d1;
+								font-size: 0.95em; 
+								box-shadow: 0 8px 25px rgba(0,0,0,0.4);">
+
+								<div style="margin-bottom: 15px;">
+									<h2 style="margin: 0; color: #ffffff; font-size: 1.5em; border-bottom: 1px solid rgba(206, 171, 107, 0.3); padding-bottom: 10px; text-transform: uppercase; letter-spacing: 1px;">
+										Ingeniería Civil en Informática
+									</h2>
+									
+									<div style="display: flex; align-items: center; margin: 15px 0 10px 0; gap: 15px;">
+										
+										<img src="images/Certificados/Logo_uach_bn.png" 
+											alt="Logo UACh" 
+											style="
+												height: 50px; 
+												width: auto; 
+												flex-shrink: 0;
+												image-rendering: -webkit-optimize-contrast; 
+												image-rendering: crisp-edges;
+												/* OPCIONAL: Un ligero aumento de contraste para que resalte más */
+												filter: contrast(1.1) brightness(1.1);
+											">
+										
+										<div style="line-height: 1.2;">
+											<p style="margin: 0; color: #eee; font-style: italic; font-size: 1.05em;">
+												Universidad Austral de Chile, Valdivia, Chile
+											</p>
+											<small>
+												<a href="https://ingenieria.uach.cl/carreras/informatica/" target="_blank" rel="noopener noreferrer" style="color: #3498db; text-decoration: none;">[Ver carrera]</a>
+											</small>
+										</div>
+									</div>
+
+									<div style="font-size: 0.85em; color: rgba(206, 171, 107, 0.9); margin-left: 2px;">
+										<b>Graduación:</b> Diciembre de 1990
+									</div>
+								</div>
+
+								<div style="background: rgba(0, 0, 0, 0.2); border-radius: 8px; padding: 15px; border: 1px solid rgba(255, 255, 255, 0.05);">
+									
+									<div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
+										<a href="images/Certificados/TIT_ING_gvp.pdf" target="_blank" style="text-decoration: none; flex-shrink: 0;">
+											<img src="images/Certificados/thumbnail_titing.jpg" 
+												alt="Título" 
+												style="width: 70px; height: auto; border-radius: 4px; border: 1px solid rgba(206, 171, 107, 0.5); transition: 0.3s;"
+												onmouseover="this.style.transform='scale(1.08)'"
+												onmouseout="this.style.transform='scale(1)'">
+										</a>
+										<div style="line-height: 1.4;">
+											<div style="margin-bottom: 4px;">
+												<b style="color: rgba(206, 171, 107, 1);">Título Profesional:</b> Ingeniero Civil en Informática
+											</div>
+											<div style="display: flex; align-items: center; flex-wrap: wrap; gap: 8px;">
+												<span><b style="color: rgba(206, 171, 107, 1);">Grado:</b> Licenciado en Ciencias de la Ingeniería</span>
+												<a href="images/Certificados/titinggvp.jpg" target="_blank" style="
+													padding: 2px 10px;
+													background: rgba(206, 171, 107, 0.1);
+													color: rgba(206, 171, 107, 1);
+													border: 1px solid rgba(206, 171, 107, 0.5);
+													border-radius: 15px;
+													text-decoration: none;
+													font-size: 0.75em;
+													font-weight: bold;
+													display: inline-flex;
+													align-items: center;">
+													<span style="margin-right: 4px;">📄</span> Ver Doc.
+												</a>
+											</div>
+										</div>
+									</div>
+
+									<div style="border-top: 1px solid rgba(255, 255, 255, 0.1); padding-top: 12px;">
+										<b style="color: #ffffff; font-size: 0.95em; display: block; margin-bottom: 8px;">Foco en:</b>
+										<ul style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 0.85em; line-height: 1.3;">
+											<li style="display: flex; align-items: baseline;">
+												<span style="color: rgba(206, 171, 107, 1); margin-right: 6px;">•</span>
+												<span><strong>Soluciones TI:</strong> Diseño y gestión de arquitecturas.</span>
+											</li>
+											<li style="display: flex; align-items: baseline;">
+												<span style="color: rgba(206, 171, 107, 1); margin-right: 6px;">•</span>
+												<span><strong>Software:</strong> Estándares de ingeniería escalables.</span>
+											</li>
+											<li style="display: flex; align-items: baseline;">
+												<span style="color: rgba(206, 171, 107, 1); margin-right: 6px;">•</span>
+												<span><strong>IA:</strong> Sistemas Inteligentes y analítica.</span>
+											</li>
+											<li style="display: flex; align-items: baseline;">
+												<span style="color: rgba(206, 171, 107, 1); margin-right: 6px;">•</span>
+												<span><strong>TIC:</strong> Transformación digital y procesos.</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- Magíster -->
+							<div class="card-academica" style="
+								max-width: 900px; 
+								margin: 20px auto; 
+								background: rgba(255, 255, 255, 0.05); 
+								border: 1px solid rgba(206, 171, 107, 0.4); 
+								border-radius: 12px; 
+								padding: 20px; 
+								font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+								color: #d1d1d1;
+								font-size: 0.95em; 
+								box-shadow: 0 8px 25px rgba(0,0,0,0.4);">
+
+								<div style="margin-bottom: 15px;">
+									<h2 style="margin: 0; color: #ffffff; font-size: 1.5em; border-bottom: 1px solid rgba(206, 171, 107, 0.3); padding-bottom: 10px; text-transform: uppercase; letter-spacing: 1px;">
+										Magíster en Innovación Aplicada
+									</h2>
+									
+									<div style="display: flex; align-items: center; margin: 15px 0 10px 0; gap: 15px;">
+										
+										<img src="images/Certificados/Logo_UTEC.webp" 
+											alt="Logo UACh" 
+											style="
+												height: 50px; 
+												width: auto; 
+												flex-shrink: 0;
+												image-rendering: -webkit-optimize-contrast; 
+												image-rendering: crisp-edges;
+												/* OPCIONAL: Un ligero aumento de contraste para que resalte más */
+												filter: contrast(1.1) brightness(1.1);
+											">
+										
+										<div style="line-height: 1.2;">
+											<p style="margin: 0; color: #eee; font-style: italic; font-size: 1.05em;">
+												Universidad Tecnológica de Chile, Santiago, Chile
+											</p>
+											<small>
+												<a href="https://portales.inacap.cl/postgrados-old/magister/innovacion-aplicada" target="_blank" rel="noopener noreferrer" style="color: #3498db; text-decoration: none;">[Ver carrera]</a>
+											</small>
+										</div>
+									</div>
+
+									<div style="font-size: 0.85em; color: rgba(206, 171, 107, 0.9); margin-left: 2px;">
+										<b>Graduación:</b> Diciembre de 2014
+									</div>
+								</div>
+
+								<div style="background: rgba(0, 0, 0, 0.2); border-radius: 8px; padding: 15px; border: 1px solid rgba(255, 255, 255, 0.05);">
+									
+									<div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
+										<a href="images/Certificados/TIT_MAG_gvp.pdf" target="_blank" style="text-decoration: none; flex-shrink: 0;">
+											<img src="images/Certificados/thumbnail_magister.jpg" 
+												alt="Título" 
+												style="width: 70px; height: auto; border-radius: 4px; border: 1px solid rgba(206, 171, 107, 0.5); transition: 0.3s;"
+												onmouseover="this.style.transform='scale(1.08)'"
+												onmouseout="this.style.transform='scale(1)'">
+										</a>
+										<div style="line-height: 1.4;">
+											<div style="display: flex; align-items: center; flex-wrap: wrap; gap: 8px;">
+												<span><b style="color: rgba(206, 171, 107, 1);">Grado:</b> Magíster en Innovación Aplicada</span>
+												<a href="images/Certificados/gradomaggvp.png" target="_blank" style="
+													padding: 2px 10px;
+													background: rgba(206, 171, 107, 0.1);
+													color: rgba(206, 171, 107, 1);
+													border: 1px solid rgba(206, 171, 107, 0.5);
+													border-radius: 15px;
+													text-decoration: none;
+													font-size: 0.75em;
+													font-weight: bold;
+													display: inline-flex;
+													align-items: center;">
+													<span style="margin-right: 4px;">📄</span> Ver Doc.
+												</a>
+											</div>
+										</div>
+									</div>
+
+									<div style="border-top: 1px solid rgba(255, 255, 255, 0.1); padding-top: 12px;">
+										<b style="color: #ffffff; font-size: 0.95em; display: block; margin-bottom: 8px;">Foco en:</b>
+										<ul style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 0.85em; line-height: 1.3;">
+											<li style="display: flex; align-items: baseline;">
+												<span style="color: rgba(206, 171, 107, 1); margin-right: 6px;">•</span>
+												<span><strong>Visión Analítica:</strong> Diagnóstico y soluciones holísticas.</span>
+											</li>
+											<li style="display: flex; align-items: baseline;">
+												<span style="color: rgba(206, 171, 107, 1); margin-right: 6px;">•</span>
+												<span><strong>Liderazgo:</strong> Estrategias de gestión del cambio.</span>
+											</li>
+											<li style="display: flex; align-items: baseline;">
+												<span style="color: rgba(206, 171, 107, 1); margin-right: 6px;">•</span>
+												<span><strong>Implementación:</strong> Procesos de aprendizaje operativos.</span>
+											</li>
+											<li style="display: flex; align-items: baseline;">
+												<span style="color: rgba(206, 171, 107, 1); margin-right: 6px;">•</span>
+												<span><strong>Modelamiento TIC:</strong> Digitalización de oportunidades.</span>
+											</li>
+										</ul>
+
+									</div>
+								</div>
+							</div>
+							<!-- Diplomado -->
+							<div class="card-academica" style="
+								max-width: 900px; 
+								margin: 20px auto; 
+								background: rgba(255, 255, 255, 0.05); 
+								border: 1px solid rgba(206, 171, 107, 0.4); 
+								border-radius: 12px; 
+								padding: 20px; 
+								font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+								color: #d1d1d1;
+								font-size: 0.95em; 
+								box-shadow: 0 8px 25px rgba(0,0,0,0.4);">
+
+								<div style="margin-bottom: 15px;">
+									<h2 style="margin: 0; color: #ffffff; font-size: 1.4em; border-bottom: 1px solid rgba(206, 171, 107, 0.3); padding-bottom: 10px; text-transform: uppercase; letter-spacing: 0.5px;">
+										Diplomado en Metodologías Activas con IA y Habilidades Digitales
+									</h2>
+									
+									<div style="display: flex; align-items: center; margin: 15px 0 10px 0; gap: 15px;">
+										<img src="images/Certificados/logo_uct.svg" 
+											alt="Logo UCT" 
+											style="height: 45px; width: auto; flex-shrink: 0; image-rendering: -webkit-optimize-contrast;">
+										
+										<div style="line-height: 1.2;">
+											<p style="margin: 0; color: #eee; font-style: italic; font-size: 1.05em;">
+												Universidad Católica de Temuco, Chile
+											</p>
+											<div style="font-size: 0.85em; color: rgba(206, 171, 107, 0.9); margin-top: 4px;">
+												<b>Certificación:</b> Septiembre de 2023
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div style="background: rgba(0, 0, 0, 0.2); border-radius: 8px; padding: 15px; border: 1px solid rgba(255, 255, 255, 0.05);">
+									
+									<div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
+										<a href="images/Certificados/DIP_IA_uct.pdf" target="_blank" style="text-decoration: none; flex-shrink: 0;">
+											<img src="images/Certificados/thumbnail_dipia.jpg" 
+												alt="Diplomado IA" 
+												style="width: 70px; height: auto; border-radius: 4px; border: 1px solid rgba(206, 171, 107, 0.5); transition: 0.3s;"
+												onmouseover="this.style.transform='scale(1.08)'"
+												onmouseout="this.style.transform='scale(1)'">
+										</a>
+										<div style="line-height: 1.4;">
+											<div style="margin-bottom: 4px;">
+												<b style="color: rgba(206, 171, 107, 1);">Programa:</b> Postítulo en Educación y Tecnología
+											</div>
+											<div style="display: flex; align-items: center; flex-wrap: wrap; gap: 8px;">
+												<span><b style="color: rgba(206, 171, 107, 1);">Especialidad:</b> Inteligencia Artificial Aplicada</span>
+												<a href="images/Certificados/dipia_uct.jpg" target="_blank" style="
+													padding: 2px 10px;
+													background: rgba(206, 171, 107, 0.1);
+													color: rgba(206, 171, 107, 1);
+													border: 1px solid rgba(206, 171, 107, 0.5);
+													border-radius: 15px;
+													text-decoration: none;
+													font-size: 0.75em;
+													font-weight: bold;
+													display: inline-flex;
+													align-items: center;">
+													<span style="margin-right: 4px;">📄</span> Ver Doc.
+												</a>
+											</div>
+										</div>
+									</div>
+
+									<div style="border-top: 1px solid rgba(255, 255, 255, 0.1); padding-top: 12px;">
+										<b style="color: #ffffff; font-size: 0.95em; display: block; margin-bottom: 8px;">Foco en:</b>
+										<ul style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 0.85em; line-height: 1.3;">
+											<li style="display: flex; align-items: baseline;">
+												<span style="color: rgba(206, 171, 107, 1); margin-right: 6px;">•</span>
+												<span><strong>IA Generativa:</strong> Integración de modelos en procesos de aprendizaje.</span>
+											</li>
+											<li style="display: flex; align-items: baseline;">
+												<span style="color: rgba(206, 171, 107, 1); margin-right: 6px;">•</span>
+												<span><strong>Metodologías:</strong> Diseño instruccional basado en metodologías activas.</span>
+											</li>
+											<li style="display: flex; align-items: baseline;">
+												<span style="color: rgba(206, 171, 107, 1); margin-right: 6px;">•</span>
+												<span><strong>Habilidades Digitales:</strong> Dominio de herramientas para la transformación digital.</span>
+											</li>
+											<li style="display: flex; align-items: baseline;">
+												<span style="color: rgba(206, 171, 107, 1); margin-right: 6px;">•</span>
+												<span><strong>Gestión Educativa:</strong> Optimización de recursos mediante IA aplicada.</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>					
+     				<!-- Experiencia -->
+					<div class="accordion-item">
+						<div class="accordion-header">
+							<h3 style="display: flex; align-items: center; gap: 12px;">
+								<span style="
+										display: inline-flex;
+										align-items: center;
+										justify-content: center;
+										width: 34px;
+										height: 34px;
+										background: rgba(206,171,107,0.15);
+										border-radius: 10px;
+										box-shadow: 0 0 12px rgba(206,171,107,0.25);
+									">
+										<i class="fas fa-briefcase" style="
+											color: #ceab6b;
+											font-size: 1rem;
+										"></i>
+								</span>
+								Experiencia Profesional
+							</h3>
+							<span class="accordion-icon">+</span>
+						</div>
+						<div class="accordion-content">
+							<div class="seccion-experiencia" style="padding: 10px;">
+								<div class="experience-card" style="max-width: 900px; margin: 12px auto; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(206, 171, 107, 0.4); border-radius: 8px; padding: 15px; font-family: 'Segoe UI', sans-serif; color: #d1d1d1; font-size: 0.9em;">
+									<div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid rgba(206, 171, 107, 0.2); padding-bottom: 5px; margin-bottom: 10px;">
+										<h3 style="margin: 0; color: #ffffff; font-size: 1.1em; text-transform: uppercase;">Consultor Independiente & Especialista en Datos</h3>
+										<span style="font-size: 0.8em; color: rgba(206, 171, 107, 0.8); font-weight: bold;">2020 – ACTUALIDAD</span>
+									</div>
+									<div style="font-size: 0.85em; line-height: 1.4;">
+										<p style="margin: 0 0 8px 0; color: #eee; font-style: italic;">Optimización de gestión pública y privada mediante analítica avanzada.</p>
+										<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 5px 15px; color: #bbb;">
+											<span><b style="color:rgba(206, 171, 107, 0.7)">•</b> <b>Salud:</b> Modelos predictivos COVID-19.</span>
+											<span><b style="color:rgba(206, 171, 107, 0.7)">•</b> <b>Gestión:</b> Modelos DEA Municipales.</span>
+											<span><b style="color:rgba(206, 171, 107, 0.7)">•</b> <b>Educación:</b> Capacitación digital técnica.</span>
+											<span><b style="color:rgba(206, 171, 107, 0.7)">•</b> <b>Política:</b> Analítica y proyecciones.</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="experience-card" style="max-width: 900px; margin: 12px auto; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(206, 171, 107, 0.4); border-radius: 8px; padding: 15px; font-family: 'Segoe UI', sans-serif; color: #d1d1d1; font-size: 0.9em;">
+									<div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid rgba(206, 171, 107, 0.2); padding-bottom: 5px; margin-bottom: 10px;">
+										<h3 style="margin: 0; color: #ffffff; font-size: 1.1em; text-transform: uppercase;">Analista de Datos Sr. / Jefe Proyectos BI</h3>
+										<span style="font-size: 0.8em; color: rgba(206, 171, 107, 0.8); font-weight: bold;">2009 – 2019</span>
+									</div>
+									<div style="font-size: 0.85em; line-height: 1.4;">
+										<p style="margin: 0 0 4px 0; color: #fff; font-weight: 500;">Universidad Tecnológica de Chile, INACAP</p>
+										<p style="margin: 0 0 8px 0; color: #eee; font-style: italic;">Liderazgo en Inteligencia de Negocios y automatización de procesos.</p>
+										<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 5px 15px; color: #bbb;">
+											<span><b style="color:rgba(206, 171, 107, 0.7)">•</b> <b>ETL:</b> Modelos multidimensionales.</span>
+											<span><b style="color:rgba(206, 171, 107, 0.7)">•</b> <b>BI:</b> Dashboards en Cognos/Power BI.</span>
+											<span><b style="color:rgba(206, 171, 107, 0.7)">•</b> <b>Inversión:</b> Control presupuestario.</span>
+											<span><b style="color:rgba(206, 171, 107, 0.7)">•</b> <b>Estrategia:</b> Centralización de datos.</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="experience-card" style="max-width: 900px; margin: 12px auto; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(206, 171, 107, 0.4); border-radius: 8px; padding: 15px; font-family: 'Segoe UI', sans-serif; color: #d1d1d1; font-size: 0.9em;">
+									<div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid rgba(206, 171, 107, 0.2); padding-bottom: 5px; margin-bottom: 10px;">
+										<h3 style="margin: 0; color: #ffffff; font-size: 1.1em; text-transform: uppercase;">Consultor Business Intelligence</h3>
+										<span style="font-size: 0.8em; color: rgba(206, 171, 107, 0.8); font-weight: bold;">2003 – 2008</span>
+									</div>
+									<div style="font-size: 0.85em; line-height: 1.4;">
+										<p style="margin: 0 0 4px 0; color: #fff; font-weight: 500;">Interamericana Data Center IDC (Sonda)</p>
+										<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 5px 15px; color: #bbb;">
+											<span><b style="color:rgba(206, 171, 107, 0.7)">•</b> <b>Preventa:</b> Propuestas técnicas.</span>
+											<span><b style="color:rgba(206, 171, 107, 0.7)">•</b> <b>Soporte:</b> Especialista comercial.</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="experience-card" style="max-width: 900px; margin: 12px auto; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(206, 171, 107, 0.4); border-radius: 8px; padding: 15px; font-family: 'Segoe UI', sans-serif; color: #d1d1d1; font-size: 0.9em;">
+									<div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid rgba(206, 171, 107, 0.2); padding-bottom: 5px; margin-bottom: 10px;">
+										<h3 style="margin: 0; color: #ffffff; font-size: 1.1em; text-transform: uppercase;">Consultor Senior</h3>
+										<span style="font-size: 0.8em; color: rgba(206, 171, 107, 0.8); font-weight: bold;">2000 – 2002</span>
+									</div>
+									<div style="font-size: 0.85em; line-height: 1.4;">
+										<p style="margin: 0 0 4px 0; color: #fff; font-weight: 500;">DMR Consulting Spain (Everis/NTT Data)</p>
+										<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 5px 15px; color: #bbb;">
+											<span><b style="color:rgba(206, 171, 107, 0.7)">•</b> <b>Data Warehouse:</b> Telecom.</span>
+											<span><b style="color:rgba(206, 171, 107, 0.7)">•</b> <b>ETL:</b> Datos masivos.</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="experience-card" style="max-width: 900px; margin: 12px auto; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(206, 171, 107, 0.4); border-radius: 8px; padding: 15px; font-family: 'Segoe UI', sans-serif; color: #d1d1d1; font-size: 0.9em;">
+								
+									<div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid rgba(206, 171, 107, 0.2); padding-bottom: 5px; margin-bottom: 10px;">
+										<h3 style="margin: 0; color: #ffffff; font-size: 1.1em; text-transform: uppercase;">Gerente - Socio Propietario</h3>
+										<span style="font-size: 0.8em; color: rgba(206, 171, 107, 0.8); font-weight: bold;">1990 – 1999</span>
+									</div>
+									<div style="font-size: 0.85em; line-height: 1.4;">
+										<p style="margin: 0 0 4px 0; color: #fff; font-weight: 500;">Informática e Ingeniería Ltda.</p>
+										<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 5px 15px; color: #bbb;">
+											<span><b style="color:rgba(206, 171, 107, 0.7)">•</b> <b>Software:</b> Desarrollo de productos.</span>
+											<span><b style="color:rgba(206, 171, 107, 0.7)">•</b> <b>Hardware:</b> Equipamiento.</span>
+										</div>
+									</div>
+								</div>
+
+							</div>	
+						</div>
+					</div>
+					<!-- Certificaciones-->			
+					<div class="accordion-item">
+						<div class="accordion-header">
+							🏆 Certificaciones
+							<span class="accordion-icon">+</span>
+						</div>
+
+						<div class="accordion-content">
+							<div class="certificaciones-card" style="
+									max-width: 900px; 
+									margin: 20px auto; 
+									background: rgba(255, 255, 255, 0.05); 
+									border: 1px solid rgba(206, 171, 107, 0.4); 
+									border-radius: 12px; 
+									padding: 25px; 
+									font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+									color: #d1d1d1;
+									box-shadow: 0 8px 25px rgba(0,0,0,0.4);">
+									<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); gap: 15px;">
+										
+										<div style="background: rgba(0,0,0,0.2); padding: 12px; border-radius: 6px; border-left: 3px solid #ceab6b;">
+											<b style="color: #fff; display: block; font-size: 0.95em;">Data Science Math Skills</b>
+											<span style="font-size: 0.85em; color: #aaa;">Duke University • <small>Mayo 2024</small></span>
+										</div>
+
+										<div style="background: rgba(0,0,0,0.2); padding: 12px; border-radius: 6px; border-left: 3px solid #ceab6b;">
+											<b style="color: #fff; display: block; font-size: 0.95em;">Estadística y Probabilidad</b>
+											<span style="font-size: 0.85em; color: #aaa;">UNAM • <small>Julio 2024</small></span>
+										</div>
+
+										<div style="background: rgba(0,0,0,0.2); padding: 12px; border-radius: 6px; border-left: 3px solid #ceab6b;">
+											<b style="color: #fff; display: block; font-size: 0.95em;">Enseñar en la Educación Pública (80h)</b>
+											<span style="font-size: 0.85em; color: #aaa;">PUCV / CPEIP • <small>2023</small><br>
+												Certificado según DFL Nº1 de 1996 del MINEDUC. PUCV / CPEIP, 2023
+											</span>
+										</div>
+
+										<div style="background: rgba(0,0,0,0.2); padding: 12px; border-radius: 6px; border-left: 3px solid #ceab6b; display: flex; justify-content: space-between; align-items: center;">
+											<div>
+												<b style="color: #fff; display: block; font-size: 0.95em;">GCP Big Data & ML Fundamentals</b>
+												<span style="font-size: 0.85em; color: #aaa;">Coursera • <small>2020</small></span>
+											</div>
+											<a href="https://coursera.org/share/2f4d3d90922e1e297f78dba93df478ec" target="_blank" style="text-decoration: none; font-size: 0.7em; background: rgba(206,171,107,0.2); color: #ceab6b; padding: 4px 8px; border-radius: 4px; border: 1px solid #ceab6b; font-weight: bold;">CREDENTIAL</a>
+										</div>
+
+										<div style="background: rgba(0,0,0,0.2); padding: 12px; border-radius: 6px; border-left: 3px solid #ceab6b;">
+											<b style="color: #fff; display: block; font-size: 0.95em;">Machine Learning para Bioinformática</b>
+											<span style="font-size: 0.85em; color: #aaa;">Omics Lab SpA • <small>2021</small></span>
+										</div>
+
+										<div style="background: rgba(0,0,0,0.2); padding: 12px; border-radius: 6px; border-left: 3px solid #ceab6b;">
+											<b style="color: #fff; display: block; font-size: 0.95em;">Análisis Estadístico RNA-seq (R)</b>
+											<span style="font-size: 0.85em; color: #aaa;">Omics Lab SpA • <small>2021</small></span>
+										</div>
+
+										<div style="background: rgba(0,0,0,0.2); padding: 12px; border-radius: 6px; border-left: 3px solid #ceab6b;">
+											<b style="color: #fff; display: block; font-size: 0.95em;">Ciencia de Datos para Gestión Pública</b>
+											<span style="font-size: 0.85em; color: #aaa;">UAH • <small>2020</small></span>
+										</div>
+
+										<div style="background: rgba(0,0,0,0.2); padding: 12px; border-radius: 6px; border-left: 3px solid #ceab6b;">
+											<b style="color: #fff; display: block; font-size: 0.95em;">Fundamentos y Disrupción Blockchain</b>
+											<span style="font-size: 0.85em; color: #aaa;">U. Austral / LinkedIn • <small>2020</small></span>
+										</div>
+
+										<div style="background: rgba(0,0,0,0.2); padding: 12px; border-radius: 6px; border-left: 3px solid #ceab6b;">
+											<b style="color: #fff; display: block; font-size: 0.95em;">Ingeniero Certificado en BI (Cognos)</b>
+											<span style="font-size: 0.85em; color: #aaa;">Buenos Aires, ARG • <small>2001</small></span>
+										</div>
+
+									</div>
+							</div>
+						</div>
+					</div>
+				</article>
+
+				<!-- Contact -->
+				<article id="contact">
+					<h2 class="major">Contact</h2>
+					<form method="post" action="#">
+						<div class="fields">
+							<div class="field half">
+								<label for="name">Name</label>
+								<input type="text" name="name" id="name" />
+							</div>
+							<div class="field half">
+								<label for="email">Email</label>
+								<input type="text" name="email" id="email" />
+							</div>
+							<div class="field">
+								<label for="message">Message</label>
+								<textarea name="message" id="message" rows="4"></textarea>
+							</div>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send Message" class="primary" /></li>
+							<li><input type="reset" value="Reset" /></li>
+						</ul>
+					</form>
+				</article>
+
+				<!-- Elements -->
+				<article id="elements">
+					<h2 class="major">Elements</h2>
+
+					<section>
+						<h3 class="major">Text</h3>
+						<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is
+							<em>emphasized</em>.
+							This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+							This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a
+								href="#">this is a link</a>.
+						</p>
+						<hr />
+						<h2>Heading Level 2</h2>
+						<h3>Heading Level 3</h3>
+						<h4>Heading Level 4</h4>
+						<h5>Heading Level 5</h5>
+						<h6>Heading Level 6</h6>
+						<hr />
+						<h4>Blockquote</h4>
+						<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus
+							euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis
+							iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem
+							ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+						<h4>Preformatted</h4>
+						<pre><code>i = 0;
+
+	while (!deck.isInOrder()) {
+		print 'Iteration ' + i;
+		deck.shuffle();
+		i++;
+	}
+
+
+
+
+	print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+					</section>
+
+					<section>
+						<h3 class="major">Lists</h3>
+
+						<h4>Unordered</h4>
+						<ul>
+							<li>Dolor pulvinar etiam.</li>
+							<li>Sagittis adipiscing.</li>
+							<li>Felis enim feugiat.</li>
+						</ul>
+
+						<h4>Alternate</h4>
+						<ul class="alt">
+							<li>Dolor pulvinar etiam.</li>
+							<li>Sagittis adipiscing.</li>
+							<li>Felis enim feugiat.</li>
+						</ul>
+
+						<h4>Ordered</h4>
+						<ol>
+							<li>Dolor pulvinar etiam.</li>
+							<li>Etiam vel felis viverra.</li>
+							<li>Felis enim feugiat.</li>
+							<li>Dolor pulvinar etiam.</li>
+							<li>Etiam vel felis lorem.</li>
+							<li>Felis enim et feugiat.</li>
+						</ol>
+						<h4>Icons</h4>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						</ul>
+
+						<h4>Actions</h4>
+						<ul class="actions">
+							<li><a href="#" class="button primary">Default</a></li>
+							<li><a href="#" class="button">Default</a></li>
+						</ul>
+						<ul class="actions stacked">
+							<li><a href="#" class="button primary">Default</a></li>
+							<li><a href="#" class="button">Default</a></li>
+						</ul>
+					</section>
+
+					<section>
+						<h3 class="major">Table</h3>
+						<h4>Default</h4>
+						<div class="table-wrapper">
+							<table>
+								<thead>
+									<tr>
+										<th>Name</th>
+										<th>Description</th>
+										<th>Price</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Item One</td>
+										<td>Ante turpis integer aliquet porttitor.</td>
+										<td>29.99</td>
+									</tr>
+									<tr>
+										<td>Item Two</td>
+										<td>Vis ac commodo adipiscing arcu aliquet.</td>
+										<td>19.99</td>
+									</tr>
+									<tr>
+										<td>Item Three</td>
+										<td> Morbi faucibus arcu accumsan lorem.</td>
+										<td>29.99</td>
+									</tr>
+									<tr>
+										<td>Item Four</td>
+										<td>Vitae integer tempus condimentum.</td>
+										<td>19.99</td>
+									</tr>
+									<tr>
+										<td>Item Five</td>
+										<td>Ante turpis integer aliquet porttitor.</td>
+										<td>29.99</td>
+									</tr>
+								</tbody>
+								<tfoot>
+									<tr>
+										<td colspan="2"></td>
+										<td>100.00</td>
+									</tr>
+								</tfoot>
+							</table>
+						</div>
+
+						<h4>Alternate</h4>
+						<div class="table-wrapper">
+							<table class="alt">
+								<thead>
+									<tr>
+										<th>Name</th>
+										<th>Description</th>
+										<th>Price</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Item One</td>
+										<td>Ante turpis integer aliquet porttitor.</td>
+										<td>29.99</td>
+									</tr>
+									<tr>
+										<td>Item Two</td>
+										<td>Vis ac commodo adipiscing arcu aliquet.</td>
+										<td>19.99</td>
+									</tr>
+									<tr>
+										<td>Item Three</td>
+										<td> Morbi faucibus arcu accumsan lorem.</td>
+										<td>29.99</td>
+									</tr>
+									<tr>
+										<td>Item Four</td>
+										<td>Vitae integer tempus condimentum.</td>
+										<td>19.99</td>
+									</tr>
+									<tr>
+										<td>Item Five</td>
+										<td>Ante turpis integer aliquet porttitor.</td>
+										<td>29.99</td>
+									</tr>
+								</tbody>
+								<tfoot>
+									<tr>
+										<td colspan="2"></td>
+										<td>100.00</td>
+									</tr>
+								</tfoot>
+							</table>
+						</div>
+					</section>
+
+					<section>
+						<h3 class="major">Buttons</h3>
+						<ul class="actions">
+							<li><a href="#" class="button primary">Primary</a></li>
+							<li><a href="#" class="button">Default</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="#" class="button">Default</a></li>
+							<li><a href="#" class="button small">Small</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+							<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+						</ul>
+						<ul class="actions">
+							<li><span class="button primary disabled">Disabled</span></li>
+							<li><span class="button disabled">Disabled</span></li>
+						</ul>
+					</section>
+
+					<section>
+						<h3 class="major">Form</h3>
+						<form method="post" action="#">
+							<div class="fields">
+								<div class="field half">
+									<label for="demo-name">Name</label>
+									<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+								</div>
+								<div class="field half">
+									<label for="demo-email">Email</label>
+									<input type="email" name="demo-email" id="demo-email" value=""
+										placeholder="jane@untitled.tld" />
+								</div>
+								<div class="field">
+									<label for="demo-category">Category</label>
+									<select name="demo-category" id="demo-category">
+										<option value="">-</option>
+										<option value="1">Manufacturing</option>
+										<option value="1">Shipping</option>
+										<option value="1">Administration</option>
+										<option value="1">Human Resources</option>
+									</select>
+								</div>
+								<div class="field half">
+									<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+									<label for="demo-priority-low">Low</label>
+								</div>
+								<div class="field half">
+									<input type="radio" id="demo-priority-high" name="demo-priority">
+									<label for="demo-priority-high">High</label>
+								</div>
+								<div class="field half">
+									<input type="checkbox" id="demo-copy" name="demo-copy">
+									<label for="demo-copy">Email me a copy</label>
+								</div>
+								<div class="field half">
+									<input type="checkbox" id="demo-human" name="demo-human" checked>
+									<label for="demo-human">Not a robot</label>
+								</div>
+								<div class="field">
+									<label for="demo-message">Message</label>
+									<textarea name="demo-message" id="demo-message" placeholder="Enter your message"
+										rows="6"></textarea>
+								</div>
+							</div>
+							<ul class="actions">
+								<li><input type="submit" value="Send Message" class="primary" /></li>
+								<li><input type="reset" value="Reset" /></li>
+							</ul>
+						</form>
+					</section>
+
+				</article>
+
+			</div>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<p>Escríbeme a <a href="mailto:garcyv@gmail.com">garcyv@gmail.com</a></p>
+			</footer>
+
+		</div>
+
+		<!-- BG -->
+		<div id="bg"></div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+		<script>
+			function toggleDesc(button) {
+				// Localizamos el contenedor de descripción detallada (es el siguiente elemento en el HTML)
+				var descContainer = button.parentElement.nextElementSibling;
+
+				// Alternamos la clase 'active' para los estilos
+				descContainer.classList.toggle('active');
+
+				// Si está activo, calculamos la altura real (scrollHeight) y la aplicamos
+				if (descContainer.classList.contains('active')) {
+					descContainer.style.maxHeight = descContainer.scrollHeight + "px";
+					button.textContent = "▲"; // Cambiamos el ícono del botón (hacia arriba)
+					button.title = "Ocultar descripción"; // Cambiamos el tooltip
+				} else {
+					// Si no, volvemos a altura cero
+					descContainer.style.maxHeight = "0";
+					button.textContent = "▼"; // Restauramos el ícono (hacia abajo)
+					button.title = "Ver descripción detallada"; // Restauramos el tooltip
+				}
+			}
+		</script>
+
+		<script>
+			document.querySelectorAll(".accordion-header").forEach(header => {
+				header.addEventListener("click", () => {
+					const item = header.parentElement;
+
+					item.classList.toggle("active");
+				});
+			});
+		</script>
+	</body>
+
+</html>
