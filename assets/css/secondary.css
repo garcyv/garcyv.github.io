@@ -221,3 +221,11 @@ article#portfolio::-webkit-scrollbar-track {
 article {
     -webkit-overflow-scrolling: touch;
 }
+
+.card-academica,
+.experience-card,
+.certificaciones-card {
+	max-width: 100%;
+	overflow-wrap: break-word;
+	word-break: break-word;
+}
