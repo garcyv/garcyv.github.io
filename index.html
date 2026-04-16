@@ -264,38 +264,62 @@
 						<div class="featured-projects" style="margin-bottom: 40px;">
 							<h3 style="margin-bottom: 20px; font-size: 1em; letter-spacing: 2px; color: #ceab6b; text-transform: uppercase;">
 								Proyectos Destacados
-							</h3>
-							
+							</h3>			
 							<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
-
 								<div class="card-destacada" style="background: rgba(255,255,255,0.03); border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.1); transition: 0.3s;">
-									<div style="height: 140px; background: linear-gradient(45deg, #1a1a1a, #2c2c2c); display: flex; align-items: center; justify-content: center;">
-										<i class="fas fa-chart-line" style="font-size: 3em; color: #ceab6b; opacity: 0.7;"></i>
+									<h2 style="margin: 0 0 10px 0; color: #fff;">Trading: Triple Screen</h2>
+									<div style="flex: 0 0 50% !important; display: flex; flex-direction: column !important; gap: 10px;">										
+										<div class="image-container" style="flex: 1; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.3); border-radius: 12px; overflow: hidden;">
+											<img class="cardImg zoomable" 
+												src="images/Python/Triple_Screen.png"
+												alt="Señal Trading" 
+												style="width: 100%; height: auto; max-height: 100%; object-fit: contain; cursor: zoom-in;" 
+												onclick="forzarZoom(this)">	
+									    </div>
 									</div>
 									<div style="padding: 15px;">
-										<h4 style="margin: 0 0 10px 0; color: #fff;">Trading Signal</h4>
-										<p style="font-size: 0.8em; color: #bbb; line-height: 1.4;">Desarrollo de indicadores técnicos algorítmicos utilizando Python y la API de Yahoo Finance para análisis financiero.</p>
+										<p style="font-size: 0.8em; color: #bbb; line-height: 1.4;">
+											Implementación en Python del sistema de trading Triple Screen,
+											diseñado originalmente por Alexander Elder. La metodología utiliza
+											tres niveles de análisis temporal para validar operaciones, empleando
+											el MACD en gráficos semanales para determinar la tendencia principal y 
+											el oscilador estocástico en gráficos diarios para identificar retrocesos
 										<div style="margin-top: 10px; display: flex; gap: 5px;">
 											<span style="font-size: 0.7em; color: #ceab6b; border: 1px solid #ceab6b; padding: 2px 6px; border-radius: 4px;">Python</span>
 											<span style="font-size: 0.7em; color: #ceab6b; border: 1px solid #ceab6b; padding: 2px 6px; border-radius: 4px;">Data Analysis</span>
 										</div>
 									</div>
 								</div>
-
 								<div class="card-destacada" style="background: rgba(255,255,255,0.03); border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.1); transition: 0.3s;">
-									<div style="height: 140px; background: linear-gradient(45deg, #1a1a1a, #2c2c2c); display: flex; align-items: center; justify-content: center;">
-										<i class="fas fa-square-root-alt" style="font-size: 3em; color: #ceab6b; opacity: 0.7;"></i>
+									<h2 style="margin: 0 0 10px 0; color: #fff;">Cuántica: Red QCNN</h2>
+									<div style="flex: 0 0 50% !important; display: flex; flex-direction: column !important; gap: 10px;">										
+										<div class="image-container" style="flex: 1; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.3); border-radius: 12px; overflow: hidden;">
+											<img class="cardImg zoomable" 
+												src="images/Cuantica/QCNN.png" 
+												alt="Señal Trading" 
+												style="width: 100%; height: auto; max-height: 100%; object-fit: contain; cursor: zoom-in;" 
+												onclick="forzarZoom(this)">
+										</div>
 									</div>
 									<div style="padding: 15px;">
-										<h4 style="margin: 0 0 10px 0; color: #fff;">Visualización Estadística</h4>
-										<p style="font-size: 0.8em; color: #bbb; line-height: 1.4;">Simulación animada con Matplotlib para demostrar la convergencia de la distribución t-Student hacia la Normal.</p>
+										<p style="font-size: 0.8em; color: #bbb; line-height: 1.4;">
+											Ejemplo práctico de programación en Python y PennyLane para implementar 
+											una  red neuronal convolucional cuánticas (QCNN) para la clasificación de imágenes digitales.
+											Se describe la arquitectura de estos sistemas, los cuales emplean capas convolucionales
+											para extraer patrones y capas de agrupación para reducir la dimensionalidad
+											<h4>🚀 Características</h4>
+											<ul>
+												<li><b>Configuración de Circuitos Cuánticos:</b>QCNN</li>
+												<li><b>Compuertas:</b> X, Hadamard</li>
+												<li><b>Visualizaciones:</b> Esferas de Bloch y matrices de operadores..</li>
+											</ul>										
+										</p>
 										<div style="margin-top: 10px; display: flex; gap: 5px;">
 											<span style="font-size: 0.7em; color: #ceab6b; border: 1px solid #ceab6b; padding: 2px 6px; border-radius: 4px;">Matplotlib</span>
 											<span style="font-size: 0.7em; color: #ceab6b; border: 1px solid #ceab6b; padding: 2px 6px; border-radius: 4px;">Science</span>
 										</div>
 									</div>
 								</div>
-
 							</div>
 						</div>
 
@@ -767,7 +791,7 @@
 				<article id="data-science-details" style="overflow-y: auto; max-height: 80vh;border-radius: 12px; border: 2px solid #ceab6b">
 					<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; width: 100%; gap: 20px; overflow: hidden; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); padding: 20px;">
         
-						<div style="width: 100%; max-width: 250px; height: 160px; flex-shrink: 0; overflow: hidden; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">
+						<div style="width: 100%; max-width: 450px; height: 160px; flex-shrink: 0; overflow: hidden; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">
 							<img src="images/Ciencias/Ciencias_preview.webp" loading="lazy" alt="Desarrollo Python y lógica" 
 								style="width: 100%; height: 100%; object-fit: cover;">
 						</div>
