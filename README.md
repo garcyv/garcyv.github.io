@@ -13,7 +13,7 @@ Mi sitio web principal de portafolio, que actualizaré con frecuencia para inclu
   ## <a name="demo"></a>Demo
   ![](images/Portada/garcyv.github.io.webp)
 
-  ## <a name="devInfo"></a>Developer's Information
+  ## <a name="devInfo"></a>Información del desarrollador
  ¡No dudes en ponerte en contacto conmigo utilizando la información que aparece a continuación si tienes alguna pregunta o comentario!
   <br>
   Name: Garcy Valenzuela P.
@@ -22,9 +22,9 @@ Mi sitio web principal de portafolio, que actualizaré con frecuencia para inclu
   <br>
   Email: <garcyv@gmail.com>
 
-  ## <a name="credentials"></a>Credentials
+  ## <a name="credentials"></a>Credenciales
   Plantilla descargada y utilizada bajo la licencia CCA desde https://html5up.net/
-  ## <a name="license"></a>License
+  ## <a name="license"></a>Licencia
  Licencia Creative Commons Atribución 3.0 No adaptada
   <br>
   http://creativecommons.org/licenses/by/3.0/
