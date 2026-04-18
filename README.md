@@ -1,7 +1,9 @@
 # Main Portfolio
-  My main portfolio website that I will be updating often to include most recent projects, up-to-date resume information, and sending to potential employers.
+# Portafolio principal
+
+Mi sitio web principal de portafolio, que actualizaré con frecuencia para incluir mis proyectos más recientes, información actualizada de mi currículum y para enviarlo a posibles empleadores.
   <br>
-  https://garcyv.github.io/Portfolio/
+  https://garcyv.github.io
 
   ## Table of Contents
   * [Demo](#demo)
@@ -10,20 +12,20 @@
   * [License](#license)
   
   ## <a name="demo"></a>Demo
-  ![](images/mainportfolio.gif)
+  ![](images/Portada/garcyv.github.io.webp)
 
   ## <a name="devInfo"></a>Developer's Information
-  Feel free to contact me using the information below if you have any questions or feedback!
+ ¡No dudes en ponerte en contacto conmigo utilizando la información que aparece a continuación si tienes alguna pregunta o comentario!
   <br>
   Name: Garcy Valenzuela P.
   <br>
-  [Github](https://github.com/garcyv)
+  [Github](https://garcyv.github.io)
   <br>
   Email: <garcyv@gmail.com>
 
   ## <a name="credentials"></a>Credentials
-  Template downloaded and used under the CCA license from https://html5up.net/
+  Plantilla descargada y utilizada bajo la licencia CCA desde https://html5up.net/
   ## <a name="license"></a>License
-  Creative Commons Attribution 3.0 Unported
+ Licencia Creative Commons Atribución 3.0 No adaptada
   <br>
   http://creativecommons.org/licenses/by/3.0/
