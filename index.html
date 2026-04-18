@@ -392,60 +392,68 @@
 								<container>
 									<div class="row">
 										<div class="otherColumn">
-											<div class="outline">
-												<h3 class="cardTitle">📂 Ciencia de Datos</h3>								
-												<div class="image-container">
-													<div class="image main" style="border-radius: 12px; overflow: hidden; margin-bottom: 0.5rem;">
-														<video width="100%" autoplay loop muted playsinline>
+											<div class="outline" style="display: flex; flex-direction: row; gap: 1.5rem; align-items: flex-start; padding: 1rem;">
+												
+												<div class="image-container" style="flex: 1; max-width: 50%;">
+													<div class="image main" style="border-radius: 12px; overflow: hidden; line-height: 0;">
+														<video width="100%" autoplay loop muted playsinline style="display: block;">
 															<source src="images/Ciencias/Ciencias_preview.mp4" type="video/mp4">
 														</video>
 													</div>
-													<div style="display: flex; gap: 0.5rem; justify-content: space-between; align-items: center; margin-top: 1rem;">											
-														<div class="topButtonCentered">
-															<a href="#data-science-details" class="button primary">
-																<i class="fas fa-eye"></i> Ver
-															</a>
-															
-															<a href="https://github.com/garcyv" target="_blank" class="button">
-																<i class="fab fa-github"></i> Código
-															</a>
-														</div>
-														<button class="toggle-description icon-action" onclick="toggleDesc(this)" title="Ver descripción detallada">▼</button>
+												</div>
+
+												<div class="content-container" style="flex: 1; display: flex; flex-direction: column; gap: 1rem;">
+													<h3 class="cardTitle" style="margin: 0;">📂 Ciencia de Datos</h3>
+													<div class="topButtonCentered" style="display: flex; gap: 0.5rem; justify-content: flex-start;">
+														<a href="#data-science-details" class="button primary">
+															<i class="fas fa-eye"></i> Ver Proyectos
+														</a>
 													</div>
-													<div class="description-detailed" style="max-height: 0; overflow: hidden; transition: all 0.3s ease-out;">
-														<p style="font-size: 0.9rem; font-style: italic; color: rgba(255,255,255,0.7); padding: 0.5rem 0;">
-														<strong>Análisis Estadístico y ML</strong><br>
-														Colección de recursos y simuladores interactivos. Incluye el simulador 
-														t-Student diseñado para ilustrar la convergencia con la Normal Z, 
-														cuestionando la regla de n > 30 mediante análisis de alpha y desviación estándar.
+													<div class="description-detailed" style="overflow: hidden; transition: all 0.3s ease-out;">
+														<p style="font-size: 0.9rem; font-style: italic; color: #ffffff; margin: 0; line-height: 1.4;">
+															<strong>Ecosistema de Inteligencia de Datos</strong><br>
+															Soluciones avanzadas que transforman datos complejos en activos estratégicos. 
+															Incluye pipelines de Big Data para computación distribuida, modelos de segmentación 
+															de clientes y análisis predictivos de impacto nacional como Salud Estudiantil y PAES 2026, 
+															optimizando la toma de decisiones mediante rigor estadístico y Machine Learning.
 														</p>
 													</div>
+
+													<div class="tech-icons" style="display: flex; gap: 1rem; color: rgba(255,255,255,0.5); font-size: 1.2rem;">
+														<i class="fab fa-python" title="Python"></i>
+														<i class="fas fa-chart-line" title="Análisis de Datos"></i>
+														<i class="fas fa-microchip" title="Machine Learning"></i>
+														<i class="fas fa-database" title="SQL/Data"></i>
+													</div>
+
 												</div>
 											</div>
-										</div>
-										<div class="otherColumn">
-											<div class="outline">
-												<h3 class="cardTitle">📂 Lógica y Python</h3>									
-												<div class="image-container">
-													<div class="image main" style="border-radius: 12px; overflow: hidden; margin-bottom: 0.5rem;">
-														<video width="100%" autoplay loop muted playsinline>
+									    </div>
+									</div>
+									<div class="row">
+									 	<div class="otherColumn">
+											<div class="outline" style="display: flex; flex-direction: row; gap: 1.5rem; align-items: flex-start; padding: 1rem;">
+												
+												<div class="image-container" style="flex: 1; max-width: 50%;">
+													<div class="image main" style="border-radius: 12px; overflow: hidden; line-height: 0;">
+														<video width="100%" autoplay loop muted playsinline style="display: block;">
 															<source src="images/Python/Python_preview.mp4" type="video/mp4">
 															Tu navegador no soporta videos.
 														</video>
 													</div>
-													<div style="display: flex; gap: 0.5rem; justify-content: space-between; align-items: center; margin-top: 1rem;">											
-														<div class="topButtonCentered">
-															<a href="#python-logic-details" class="button primary">
-																<i class="fas fa-eye"></i> Ver
-															</a>
-															<a href="https://github.com/garcyv" target="_blank" class="button">
-																<i class="fa-brands fa-github"></i> Código
-															</a>
-														</div>
-														<button class="toggle-description icon-action" onclick="toggleDesc(this)" title="Ver descripción detallada">▼</button>
+												</div>
+
+												<div class="content-container" style="flex: 1; display: flex; flex-direction: column; gap: 1rem;">
+													
+													<h3 class="cardTitle" style="margin: 0;">📂 Lógica y Python</h3>
+
+													<div class="topButtonCentered" style="display: flex; gap: 0.5rem; justify-content: flex-start;">
+														<a href="#python-logic-details" class="button primary">
+															<i class="fas fa-eye"></i> Ver Proyectos
+														</a>
 													</div>
-													<div class="description-detailed" style="max-height: 0; overflow: hidden; transition: all 0.3s ease-out;">
-														<p style="font-size: 0.9rem; font-style: italic; color: rgba(255,255,255,0.7); padding: 0.5rem 0;">
+													<div class="description-detailed" style="overflow: hidden; transition: all 0.3s ease-out;">
+														<p style="font-size: 0.9rem; font-style: normal; color: white; margin: 0; line-height: 1.4;">
 															<strong>Algoritmos y Automatización</strong><br>
 															Resolución de problemas complejos mediante scripts optimizados. 
 															Este espacio agrupa simulaciones matemáticas, herramientas de 
@@ -453,44 +461,53 @@
 															el paradigma de POO en Python.
 														</p>
 													</div>
+
+													<div class="tech-icons" style="display: flex; gap: 1rem; color: rgba(255,255,255,0.5); font-size: 1.2rem;">
+														<i class="fab fa-python" title="Python 3.x"></i>
+														<i class="fas fa-terminal" title="Scripts & Logic"></i>
+														<i class="fas fa-cogs" title="Automatización"></i>
+														<i class="fas fa-project-diagram" title="POO"></i>
+													</div>
+
 												</div>
-											</div>
+											</div>											
 										</div>
+									</div>
+									<div class="row">
 										<div class="otherColumn">
-											<div class="outline">
-												<h3 class="cardTitle">📂 Comp. Cuántica</h3>									
-												<div class="image-container">
-													<div class="image main" style="border-radius: 12px; overflow: hidden; margin-bottom: 0.5rem;">
-														<video width="100%" autoplay loop muted playsinline>
+											<div class="outline" style="display: flex; flex-direction: row; gap: 1.5rem; align-items: flex-start; padding: 1rem;">											
+												<div class="image-container" style="flex: 1; max-width: 50%;">
+													<div class="image main" style="border-radius: 12px; overflow: hidden; line-height: 0;">
+														<video width="100%" autoplay loop muted playsinline style="display: block;">
 															<source src="images/Cuantica/Cuantica_preview.mp4" type="video/mp4">
 															Tu navegador no soporta videos.
 														</video>
 													</div>
-													<div style="display: flex; gap: 0.5rem; justify-content: space-between; align-items: center; margin-top: 1rem;">											
-														<div class="topButtonCentered">
-															<a href="#Cuantica-details" class="button primary">
-																	<i class="fas fa-eye"></i> Ver
-															</a>													
-															<a href="https://github.com/garcyv" target="_blank" class="button">
-																	<i class="fab fa-github"></i> Código
-															</a>
-														</div>
-														<button class="toggle-description icon-action" onclick="toggleDesc(this)" title="Ver descripción detallada">▼</button>
+												</div>
+												<div class="content-container" style="flex: 1; display: flex; flex-direction: column; gap: 1rem;">												
+													<h3 class="cardTitle" style="margin: 0;">📂 Comp. Cuántica</h3>
+													<div class="topButtonCentered" style="display: flex; gap: 0.5rem; justify-content: flex-start;">
+														<a href="#Cuantica-details" class="button primary">
+															<i class="fas fa-eye"></i> Ver Proyectos
+														</a>
 													</div>
-													<!--	<a href="https://tu-enlace-al-proyecto.com" target="_blank" class="button-action main-action">Proyectos →</a>
-														
-														<a href="https://github.com/tu-usuario/tu-repositorio" target="_blank" class="button-action secondary-action">Código</a>
-													-->
-
-													<div class="description-detailed" style="max-height: 0; overflow: hidden; transition: all 0.3s ease-out;">
-														<p style="font-size: 0.9rem; font-style: italic; color: rgba(255,255,255,0.7); padding: 0.5rem 0;">
-															Estos proyectos implementan algoritmos cuánticos clásicos utilizando  APIs de Qiskit y simuladores cuánticos de IBM.
-															Se muestra como desarrollar circuitos cuánticos y cómo interactuar con los simuladores. 
-															El script optimiza la asignación de cúbits y visualiza los resultados en tiempo real,
-															inabordable para la computación clásica. 
+													<div class="description-detailed" style="overflow: hidden; transition: all 0.3s ease-out;">
+														<p style="font-size: 0.9rem; font-style: normal; color: white; margin: 0; line-height: 1.4;">
+															<strong>Algoritmos Cuánticos y Qiskit</strong><br>
+															Implementación de circuitos cuánticos utilizando APIs de IBM Quantum. 
+															Desarrollo de algoritmos de optimización y simulación de estados 
+															superpuestos, visualizando la ventaja cuántica frente a la 
+															computación binaria tradicional.
 														</p>
 													</div>
-												</div>	
+													<div class="tech-icons" style="display: flex; gap: 1rem; color: rgba(255,255,255,0.5); font-size: 1.2rem;">
+														<i class="fas fa-atom" title="Qiskit / Quantum"></i>
+														<i class="fas fa-microchip" title="Quantum Hardware"></i>
+														<i class="fas fa-infinity" title="Superposición"></i>
+														<i class="fas fa-wave-square" title="Interferencia"></i>
+													</div>
+
+												</div>
 											</div>
 										</div>
 									</div>

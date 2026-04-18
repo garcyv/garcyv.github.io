@@ -16,9 +16,9 @@ Mi sitio web principal de portafolio, que actualizaré con frecuencia para inclu
   ## <a name="devInfo"></a>Información del desarrollador
  ¡No dudes en ponerte en contacto conmigo utilizando la información que aparece a continuación si tienes alguna pregunta o comentario!
   <br>
-  Name: Garcy Valenzuela P.
+  Nombre: Garcy Valenzuela P.
   <br>
-  [Github](https://garcyv.github.io)
+  Github: [Github io](https://garcyv.github.io)
   <br>
   Email: <garcyv@gmail.com>
 
