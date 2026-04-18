@@ -1,15 +1,14 @@
-# Main Portfolio
 # Portafolio principal
 
 Mi sitio web principal de portafolio, que actualizaré con frecuencia para incluir mis proyectos más recientes, información actualizada de mi currículum y para enviarlo a posibles empleadores.
   <br>
   https://garcyv.github.io
 
-  ## Table of Contents
+  ## Tabla de Contenidos
   * [Demo](#demo)
-  * [Developer's Information](#devInfo)
-  * [Credentials](#credentials)
-  * [License](#license)
+  * [Información del desarrollador](#devInfo)
+  * [Credenciales](#credentials)
+  * [Licencia](#license)
   
   ## <a name="demo"></a>Demo
   ![](images/Portada/garcyv.github.io.webp)
