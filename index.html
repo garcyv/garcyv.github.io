@@ -2326,40 +2326,35 @@
 		</div>
 
 		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js" defer></script>
-		<script src="assets/js/jquery.scrollex.min.js" defer></script>
-		<script src="assets/js/jquery.scrolly.min.js" defer></script>
-		<script src="assets/js/browser.min.js" defer></script>
-		<script src="assets/js/breakpoints.min.js" defer></script>
-		<script src="assets/js/util.js" defer></script>
-		<script src="assets/js/main.js" defer></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
 		<script>
-        // 1. Lógica de expansión de descripciones (Toggle)
-        function toggleDesc(button) {
-            const descContainer = button.parentElement.nextElementSibling;
-            const isActive = descContainer.classList.toggle('active');
+			document.querySelectorAll(".accordion-header").forEach(header => {
+				header.addEventListener("click", () => {
+					const item = header.parentElement;
+					const content = header.nextElementSibling; // El div "accordion-content"
 
-            if (isActive) {
-                descContainer.style.maxHeight = descContainer.scrollHeight + "px";
-                button.textContent = "▲";
-                button.title = "Ocultar descripción";
-            } else {
-                descContainer.style.maxHeight = "0";
-                button.textContent = "▼";
-                button.title = "Ver descripción detallada";
-            }
-        }
+					// Alternamos la clase para el icono (+) y estilos
+					item.classList.toggle("active");
 
-        // 2. Lógica de Acordeones (se ejecuta cuando el DOM está listo)
-        document.addEventListener("DOMContentLoaded", () => {
-            document.querySelectorAll(".accordion-header").forEach(header => {
-                header.addEventListener("click", () => {
-                    header.parentElement.classList.toggle("active");
-                });
-            });
-        });
-    	</script>
+					// Si se activó, calculamos su altura real y se la asignamos
+					if (item.classList.contains("active")) {
+						content.style.maxHeight = content.scrollHeight + "px";
+						content.style.opacity = "1";
+						content.style.padding = "20px"; // Ajusta según tu diseño
+					} else {
+						// Si se cerró, volvemos a altura 0
+						content.style.maxHeight = "0";
+						content.style.opacity = "0";
+						content.style.padding = "0";
+					}
+				});
+			});
+		</script>
 
 		<script>
 			document.querySelectorAll(".accordion-header").forEach(header => {
@@ -2369,8 +2364,35 @@
 					item.classList.toggle("active");
 				});
 			});
-		</script>
-		
+		</script> 
+
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const headers = document.querySelectorAll(".accordion-header");
+
+            headers.forEach(header => {
+                header.onclick = function() {
+                    const item = this.parentElement;
+                    const content = this.nextElementSibling;
+                    const isAlreadyActive = item.classList.contains("active");
+
+                    // 1. Cerramos todos los acordeones primero
+                    document.querySelectorAll(".accordion-item").forEach(el => {
+                        el.classList.remove("active");
+                        const c = el.querySelector(".accordion-content");
+                        if(c) c.style.maxHeight = "0";
+                    });
+
+                    // 2. Si el que clickeamos estaba cerrado, lo abrimos
+                    if (!isAlreadyActive) {
+                        item.classList.add("active");
+                        content.style.maxHeight = content.scrollHeight + "px";
+                    }
+                };
+            });
+        });
+    </script>
+
 	</body>
 
 </html>

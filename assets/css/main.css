@@ -1791,7 +1791,6 @@ div.topButtonCentered a.button span.icon {
     max-height: 2000px; /* suficiente para tu contenido */
 }
 
-
 .accordion-icon {
     width: 28px;
     height: 28px;
@@ -1811,8 +1810,4 @@ div.topButtonCentered a.button span.icon {
 
 .accordion-item.active .accordion-icon {
     transform: rotate(45deg); /* + -> X */
-}
-
-* {
-	box-sizing: border-box;
 }
