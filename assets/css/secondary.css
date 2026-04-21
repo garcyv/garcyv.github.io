@@ -229,3 +229,20 @@ article {
 	overflow-wrap: break-word;
 	word-break: break-word;
 }
+
+.social-link {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 44px;  /* Ajusta según el tamaño que desees */
+    height: 44px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* O el color de tu borde */
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    border-color: #ceab6b;
+    background: rgba(206, 171, 107, 0.1);
+}

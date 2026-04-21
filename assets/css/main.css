@@ -667,6 +667,7 @@ input, select, textarea {
 		.image img {
 			border-radius: 4px;
 			display: block;
+			font-display: swap;
 		}
 
 		.image.left, .image.right {
@@ -675,44 +676,52 @@ input, select, textarea {
 
 			.image.left img, .image.right img {
 				width: 100%;
+				font-display: swap;
 			}
 
 		.image.left {
 			float: left;
 			padding: 0 1.5em 1em 0;
 			top: 0.25em;
+			font-display: swap;
 		}
 
 		.image.right {
 			float: right;
 			padding: 0 0 1em 1.5em;
 			top: 0.25em;
+			font-display: swap;
 		}
 
 		.image.fit {
 			display: block;
 			margin: 0 0 2rem 0;
 			width: 100%;
+			font-display: swap;
 		}
 
 			.image.fit img {
 				width: 100%;
+				font-display: swap;
 			}
 
 		.image.main {
 			display: block;
 			margin: 2.5rem 0;
 			width: 100%;
+			font-display: swap;
 		}
 
 			.image.main img {
 				width: 100%;
+				font-display: swap;
 			}
 
 		@media screen and (max-width: 736px) {
 
 			.image.main {
 				margin: 2rem 0;
+				font-display: swap;
 			}
 
 		}
@@ -721,6 +730,7 @@ input, select, textarea {
 
 			.image.main {
 				margin: 1.5rem 0;
+				font-display: swap;
 			}
 
 		}
@@ -1720,6 +1730,7 @@ div.topButtonCentered a.button span.icon {
     max-height: 90%;
     transform: scale(1.5); /* Ajusta el nivel de zoom */
     transition: transform 0.3s ease;
+	font-display: swap;
 }
 
 .zoomable {
